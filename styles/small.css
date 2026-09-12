@@ -177,3 +177,9 @@ footer p {
     margin: 0;
 }
 
+.site-brand {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
