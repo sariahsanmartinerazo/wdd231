@@ -13,6 +13,35 @@
         padding: 0;
     }
 
+    nav a {
+        padding: 0.5rem 1rem;
+        border-radius: 0.25rem;
+        transition: background-color 0.3s, color 0.3s;}
+
+    #course-list {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 2rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    main {
+        padding: 2rem;
+    }
+
+    section {
+        padding: 1.5rem;
+    }
+
+    footer {
+        padding: 1rem 2rem;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+
   
 }
 
