@@ -148,6 +148,7 @@ footer {
 .footer-content-links {
     display: flex;
     gap: 1rem;
+    aligen-items: center;
 }
 
 .footer-content-links a {
@@ -160,6 +161,12 @@ footer {
     border-radius: 5px;
     color: white;
     text-decoration: none;
+}
+
+.footer-content-links img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
 }
 
 
