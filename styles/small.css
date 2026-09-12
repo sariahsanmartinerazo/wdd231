@@ -44,6 +44,14 @@ nav ul {
     }
 }
 
+nav {
+    display: none;
+}
+
+nav.open {
+    display: block;
+}
+
 nav a {
     display: block;
     padding: 0.75rem;

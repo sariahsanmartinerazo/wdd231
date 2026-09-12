@@ -109,3 +109,9 @@ document.querySelector("#cse").addEventListener("click", () => {
 
     displayCourses(cseCourses);
 });
+
+// mobile menu toggle
+const menuButton = document.querySelector("#menu-button");
+const navigation = document.querySelector("#navigation");
+
+menu
