@@ -145,12 +145,12 @@ footer {
     padding: 1.5rem 1rem;
 }
 
-.social-links {
+.footer-content-links {
     display: flex;
     gap: 1rem;
 }
 
-.social-links a {
+.footer-content-links a {
     display: flex;
     align-items: center;
     justify-content: center;
