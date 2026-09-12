@@ -39,10 +39,11 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 1rem 0 0;
-    #menu-button {
+}
+
+#menu-button {
         display: none;
     }
-}
 
 nav {
     display: none;
