@@ -151,9 +151,17 @@ footer {
 }
 
 .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 5px;
     color: white;
     text-decoration: none;
 }
+
 
 footer p {
     margin: 0;
