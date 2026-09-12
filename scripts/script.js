@@ -1,6 +1,9 @@
-document.querySelector('#currentyear').textContent = new Date().getFullYear();
-document.querySelector('#lastmodified').textContent = document.lastModified;
+// Footer
+document.querySelector("#currentyear").textContent = new Date().getFullYear();
+document.querySelector("#lastmodified").textContent = document.lastModified;
 
+
+// Course List
 const courses = [
     {
         subject: "CSE",
@@ -46,15 +49,24 @@ const courses = [
     }
 ];
 
+
+// Display Courses
 function displayCourses(courseList) {
+
     const courseContainer = document.querySelector("#course-list");
 
     courseContainer.innerHTML = "";
 
     courseList.forEach(course => {
+
         const card = document.createElement("div");
 
         card.classList.add("course-card");
+
+        // Mark completed courses
+        if (course.completed) {
+            card.classList.add("completed");
+        }
 
         card.innerHTML = `
             <h3>${course.subject} ${course.number}</h3>
@@ -64,6 +76,36 @@ function displayCourses(courseList) {
 
         courseContainer.appendChild(card);
     });
+
+    // Calculate total credits
+    const totalCredits = courseList.reduce(
+        (total, course) => total + course.credits,
+        0
+    );
+
+    document.querySelector("#total-credits").textContent = totalCredits;
 }
 
+
+// Show all courses when page loads
 displayCourses(courses);
+
+
+// Filter buttons
+document.querySelector("#all").addEventListener("click", () => {
+    displayCourses(courses);
+});
+
+document.querySelector("#wdd").addEventListener("click", () => {
+
+    const wddCourses = courses.filter(course => course.subject === "WDD");
+
+    displayCourses(wddCourses);
+});
+
+document.querySelector("#cse").addEventListener("click", () => {
+
+    const cseCourses = courses.filter(course => course.subject === "CSE");
+
+    displayCourses(cseCourses);
+});
