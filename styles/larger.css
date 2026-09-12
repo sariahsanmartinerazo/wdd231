@@ -22,7 +22,7 @@
         transition: background-color 0.3s, color 0.3s;}
 
     #course-list {
-        display: flex;
+        display: grid;
         justify-content: center;
         gap: 1rem;
         margin-bottom: 2rem;

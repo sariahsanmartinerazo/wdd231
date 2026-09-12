@@ -178,6 +178,16 @@ footer p {
 }
 
 .site-brand {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1.5rem 1rem;
+}
+
+.site-brand img {
     width: 25px;
     height: 25px;
     object-fit: contain;
