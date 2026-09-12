@@ -29,5 +29,14 @@ footer{
   background-color: #f8f9fa;
   padding: 1rem;
   text-align: center;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
+.footer-content-links {
+  display: flex;
+  gap: 1rem;
 }
 
