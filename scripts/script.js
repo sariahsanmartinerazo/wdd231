@@ -7,14 +7,14 @@ const courses = [
         number: 110,
         title: "Introduction to Programming",
         credits: 2,
-        completed: false
+        completed: true
     },
     {
         subject: "WDD",
         number: 130,
         title: "Web Fundamentals",
         credits: 2,
-        completed: false
+        completed: true
     },
     {
         subject: "CSE",
@@ -35,7 +35,7 @@ const courses = [
         number: 131,
         title: "Dynamic Web Fundamentals",
         credits: 2,
-        completed: false
+        completed: true
     },
     {
         subject: "WDD",
@@ -45,3 +45,25 @@ const courses = [
         completed: false
     }
 ];
+
+function displayCourses(courseList) {
+    const courseContainer = document.querySelector("#course-list");
+
+    courseContainer.innerHTML = "";
+
+    courseList.forEach(course => {
+        const card = document.createElement("div");
+
+        card.classList.add("course-card");
+
+        card.innerHTML = `
+            <h3>${course.subject} ${course.number}</h3>
+            <p>${course.title}</p>
+            <p>${course.credits} credits</p>
+        `;
+
+        courseContainer.appendChild(card);
+    });
+}
+
+displayCourses(courses);
