@@ -148,7 +148,7 @@ footer {
 .footer-content-links {
     display: flex;
     gap: 1rem;
-    aligen-items: center;
+    align-items: center;
 }
 
 .footer-content-links a {
