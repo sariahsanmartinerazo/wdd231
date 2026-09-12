@@ -1,32 +1,4 @@
-:root {
-  --font-family: "Valley Sans", sans-serif;
-  --font-optical-sizing: auto;
-  --font-weight: 400;
-  --font-style: normal;
-  --font-color: #333;
-}
-
-header{
-  background-color: #f8f9fa;
-  padding: 1rem;
-  text-align: center;
-}
-
-nav ul {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  list-style: none;
-  padding: 0;
-}
-
-main{
-  padding: 2rem;
-}
-
-footer{
-  background-color: #f8f9fa;
-  padding: 1rem;
-  text-align: center;
+@media screen {
+  
 }
 
