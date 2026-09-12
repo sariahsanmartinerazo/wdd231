@@ -2,6 +2,11 @@
     #menu-button {
     display: none;
     }
+
+    nav {
+        display: block;
+    }
+    
     header {
         display: flex;
         justify-content: space-between;

@@ -114,4 +114,7 @@ document.querySelector("#cse").addEventListener("click", () => {
 const menuButton = document.querySelector("#menu-button");
 const navigation = document.querySelector("#navigation");
 
-menu
+menuButton.addEventListener("click", () => {
+    navigation.classList.toggle("open");
+});
+
