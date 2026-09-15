@@ -1,0 +1,31 @@
+family Rosas [
+    {
+        "name": "Roberto Rosas",
+        "age": 45,
+        "relation": "Father",
+        "gender": "Male",
+        "birthday": "1978-05-12"
+
+    },
+    {
+        "name": "Maria Rosas",
+        "age": 42,
+        "relation": "Mother",
+        "gender": "Female",
+        "birthday": "1980-12-05"
+    },
+    {
+        "name": "Carlos Rosas",
+        "age": 20,
+        "relation": "Son",
+        "gender": "Male",
+        "birthday": "2003-08-22"
+    },
+    {
+        "name": "Lucia Rosas",
+        "age": 18,
+        "relation": "Daughter",
+        "gender": "Female",
+        "birthday": "2005-03-15"
+    }
+]
