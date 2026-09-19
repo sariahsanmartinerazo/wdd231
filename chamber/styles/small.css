@@ -280,3 +280,19 @@ footer a {
     color: #a30000;
     font-weight: bold;
 }
+
+#theme-toggle {
+    display: block;
+    position: absolute;
+    right: 4.5rem;
+    top: 1rem;
+    background: transparent;
+    border: 2px solid var(--dark-color);
+    color: var(--dark-color);
+    font-size: 1.5rem;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+}

@@ -3,6 +3,7 @@ const gridButton = document.querySelector("#grid-view");
 const listButton = document.querySelector("#list-view");
 const menuButton = document.querySelector("#menu-button");
 const navigation = document.querySelector("#navigation");
+const themeButton = document.querySelector("#theme-toggle");
 
 // Get member data from JSON
 async function getMembers() {
@@ -139,3 +140,19 @@ document.querySelector("#lastmodified").textContent = document.lastModified;
 
 // Load members
 getMembers();
+// Dark mode
+themeButton.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+
+    const darkModeEnabled = document.body.classList.contains("dark-mode");
+
+    themeButton.setAttribute("aria-pressed", darkModeEnabled);
+
+    if (darkModeEnabled) {
+        themeButton.textContent = "☀";
+        themeButton.setAttribute("aria-label", "Switch to light mode");
+    } else {
+        themeButton.textContent = "◐";
+        themeButton.setAttribute("aria-label", "Switch to dark mode");
+    }
+});

@@ -6,6 +6,10 @@
     text-align: left;
     gap: 2rem;
     }
+    #theme-toggle {
+    position: static;
+    display: block;
+    }
 
     header {
         display: grid;
