@@ -4,10 +4,82 @@
             "name": "Business One",
             "email": "businessone@example.com",
             "phone": "(+52) 7823456876",
-            "URL": "https://www.businessone.com",
+            "website": "https://www.businessone.com",
             "address": "Roma street #3, San Luis Potosí, México",
             "image": "images/business1.png",
             "membership": 1
+        },
+        {
+            "name": "Business Two",
+            "email": "businesstwo@example.com",
+            "phone": "(+52) 7823456877",
+            "website": "https://www.businesstwo.com",
+            "address": "Constitución street #5, San Luis Potosí, México",
+            "image": "images/business2.png",
+            "membership": 2
+        },
+        {
+            "name": "Business Three",
+            "email": "businessthree@example.com",
+            "phone": "(+52) 7823456878",
+            "website": "https://www.businessthree.com",
+            "address": "Juárez street #7, San Luis Potosí, México",
+            "image": "images/business3.png",
+            "membership": 3
+        },
+        {
+            "name": "Business Four",
+            "email": "businessfour@example.com",
+            "phone": "(+52) 7823456879",
+            "website": "https://www.businessfour.com",
+            "address": "Revolución street #9, San Luis Potosí, México",
+            "image": "images/business4.png",
+            "membership": 4
+        },
+        {
+            "name": "Business Five",
+            "email": "businessfive@example.com",
+            "phone": "(+52) 7823456880",
+            "website": "https://www.businessfive.com",
+            "address": "Independencia street #11, San Luis Potosí, México",
+            "image": "images/business5.png",
+            "membership": 5
+        },
+        {
+            "name": "Business Six",
+            "email": "businesssix@example.com",
+            "phone": "(+52) 7823456881",
+            "website": "https://www.businesssix.com",
+            "address": "Hidalgo street #13, San Luis Potosí, México",
+            "image": "images/business6.png",
+            "membership": 6
+        },
+        {
+            "name": "Business Seven",
+            "email": "businessseven@example.com",
+            "phone": "(+52) 7823456882",
+            "website": "https://www.businessseven.com",
+            "address": "Zaragoza street #15, San Luis Potosí, México",
+            "image": "images/business7.png",
+            "membership": 7
+        },
+        {
+            "name": "Business Eight",
+            "email": "businesseight@example.com",
+            "phone": "(+52) 7823456883",
+            "website": "https://www.businesseight.com",
+            "address": "Madero street #17, San Luis Potosí, México",
+            "image": "images/business8.png",
+            "membership": 8
+        },
+        {
+            "name": "Business Nine",
+            "email": "businessnine@example.com",
+            "phone": "(+52) 7823456884",
+            "website": "https://www.businessnine.com",
+            "address": "Juárez street #19, San Luis Potosí, México",
+            "image": "images/business9.png",
+            "membership": 9
         }
     ]
 }
