@@ -103,7 +103,7 @@ header {
 
 #navigation a {
     display: block;
-    padding: 0.7rem;
+    padding: 0.7rem 1rem;
     color: var(--white);
     text-decoration: none;
     border-radius: 5px;
@@ -246,7 +246,7 @@ footer {
     background-color: var(--primary-color);
     color: var(--white);
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 2rem 5%;
     margin-top: 2rem;
 }
 
@@ -261,6 +261,7 @@ footer a {
 #footer-content-links {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 1rem;
     margin: 1rem 0;
 }

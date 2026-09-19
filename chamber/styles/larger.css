@@ -1,4 +1,11 @@
 @media screen and (min-width: 700px) {
+    footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: left;
+    gap: 2rem;
+    }
 
     header {
         display: grid;
@@ -38,18 +45,3 @@
     }
 }
 
-
-@media screen and (min-width: 1000px) {
-
-    .grid-view {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .member-card {
-        min-height: 100%;
-    }
-
-    h1 {
-        font-size: 2.2rem;
-    }
-}
