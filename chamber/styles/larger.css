@@ -43,7 +43,7 @@
     .grid-view {
         grid-template-columns: repeat(3, 1fr);
         display: grid;
-        gap: 2rem;
+        gap: 1.5rem;
     }
 }
 
