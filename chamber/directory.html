@@ -7,10 +7,10 @@
     <meta name="description" content="Chamber Directory">
     <meta name="author" content="Sariah Italletzy San Martin Erazo">
     <meta name="keywords" content="Chamber, Directory, Business, Listings">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/larger.css">
-    <script src="scripts/chamber.js" defer></script>
+    <link rel="stylesheet" href="chamber/styles/normalize.css">
+    <link rel="stylesheet" href="chamber/styles/small.css">
+    <link rel="stylesheet" href="chamber/styles/larger.css">
+    <script src="chamber/scripts/chamber.js" defer></script>
     <link rel="icon" href="faviconcc.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,9 +39,14 @@
             </nav>
     </header>
     <main>
-
-        
-
+        <h2>Directory</h2>
+        <div class="view-buttons">
+            <button id="grid-view">Grid</button>
+            <button id="list-view">List</button>
+        </div>
+        <section id="member-container" class="grid-view">
+            <!-- Business cards will be dynamically inserted here -->
+        </section>
     </main>
     <footer>
         <section id="footer-content">
