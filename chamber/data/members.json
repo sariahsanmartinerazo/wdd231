@@ -71,15 +71,6 @@
             "address": "Madero street #17, San Luis Potosí, México",
             "image": "images/business8.png",
             "membership": 2
-        },
-        {
-            "name": "Business Nine",
-            "email": "businessnine@example.com",
-            "phone": "(+52) 7823456884",
-            "website": "https://www.businessnine.com",
-            "address": "Juárez street #19, San Luis Potosí, México",
-            "image": "images/business9.png",
-            "membership": 3
         }
     ]
 }
