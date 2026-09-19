@@ -31,11 +31,11 @@ img {
 }
 
 a {
-    color: var(--primary-color);
+    color: var(--dark-color);
 }
 
 a:hover {
-    color: var(--secondary-color);
+    color: var(--dark-color);
 }
 
 
@@ -45,7 +45,7 @@ a:hover {
 
 header {
     background-color: var(--primary-color);
-    color: var(--white);
+    color: var(--dark-color);
     padding: 1rem;
 }
 
@@ -246,7 +246,7 @@ h1 {
 
 footer {
     background-color: var(--primary-color);
-    color: var(--white);
+    color: var(--dark-color);
     text-align: center;
     padding: 2rem 5%;
     margin-top: 2rem;
