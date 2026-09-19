@@ -171,7 +171,7 @@ h1 {
 }
 
 .member-card {
-    background-color: var(--dark-color);
+    background-color: var(--white);
     border: 1px solid var(--border-color);
     border-radius: 8px;
     overflow: hidden;
