@@ -146,7 +146,7 @@ h1 {
 
 .view-buttons button {
     background-color: var(--primary-color);
-    color: var(--white);
+    color: var(--dark-color);
     border: none;
     padding: 0.7rem 1.5rem;
     border-radius: 5px;
