@@ -2,75 +2,12 @@
     "members": [
         {
             "name": "Business One",
-            "email": "images/business1.png",
+            "email": "businessone@example.com",
             "phone": "(+52) 7823456876",
             "URL": "https://www.businessone.com",
             "address": "Roma street #3, San Luis Potosí, México",
-            "image": "images/business1.png"
-        },
-        {
-            "name": "Business Two",
-            "email": "images/business2.png",
-            "phone": "(+52) 7823456877",
-            "URL": "https://www.businesstwo.com",
-            "address": "Roma street #3, San Luis Potosí, México",
-            "image": "images/business2.png"
-        },
-        {
-            "name": "Business Three",
-            "email": "images/business3.png",
-            "phone": "(+52) 7823456878",
-            "URL": "https://www.businessthree.com",
-            "address": "Roma street #3, San Luis Potosí, México",
-            "image": "images/business3.png"
-        },
-        {
-            "name": "Business Four",
-            "email": "images/business4.png",
-            "phone": "(+52) 7823456879",
-            "URL": "https://www.businessfour.com",
-            "address": "Roma street #3, San Luis Potosí, México",
-            "image": "images/business4.png"
-        },
-        {
-            "name": "Business Five",
-            "email": "images/business5.png",
-            "phone": "(+52) 7823456880",
-            "URL": "https://www.businessfive.com",
-            "address": "Roma street #3, San Luis Potosí, México",
-            "image": "images/business5.png"
-        },
-        {
-            "name": "Business Six",
-            "email": "images/business6.png",
-            "phone": "(+52) 7823456881",
-            "URL": "https://www.businesssix.com",
-            "address": "Roma street #3, San Luis Potosí, México",
-            "image": "images/business6.png"
-        }, 
-         {
-                "name": "Business Seven",
-                "email": "images/business7.png",
-                "phone": "(+52) 7823456882",
-                "URL": "https://www.businessseven.com",
-                "address": "Roma street #3, San Luis Potosí, México",
-                "image": "images/business7.png"
-          },
-          {
-                "name": "Business Eight",
-                "email": "images/business8.png",
-                "phone": "(+52) 7823456883",
-                "URL": "https://www.businesseight.com",
-                "address": "Roma street #3, San Luis Potosí, México",
-                "image": "images/business8.png"
-          },
-            {
-                    "name": "Business Nine",
-                    "email": "images/business9.png",
-                    "phone": "(+52) 7823456884",
-                    "URL": "https://www.businessnine.com",
-                    "address": "Roma street #3, San Luis Potosí, México",
-                    "image": "images/business9.png"
-            }
+            "image": "images/business1.png",
+            "membership": 1
+        }
     ]
 }
