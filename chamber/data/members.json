@@ -6,7 +6,7 @@
             "phone": "(+52) 7823456876",
             "website": "https://www.businessone.com",
             "address": "Roma street #3, San Luis Potosí, México",
-            "image": "images/1.webp",
+            "image": "1.webp",
             "membership": 1
         },
         {
@@ -15,7 +15,7 @@
             "phone": "(+52) 7823456877",
             "website": "https://www.businesstwo.com",
             "address": "Constitución street #5, San Luis Potosí, México",
-            "image": "images/2.webp",
+            "image": "2.webp",
             "membership": 2
         },
         {
@@ -24,7 +24,7 @@
             "phone": "(+52) 7823456878",
             "website": "https://www.businessthree.com",
             "address": "Juárez street #7, San Luis Potosí, México",
-            "image": "images/3.webp",
+            "image": "3.webp",
             "membership": 3
         },
         {
@@ -33,7 +33,7 @@
             "phone": "(+52) 7823456879",
             "website": "https://www.businessfour.com",
             "address": "Revolución street #9, San Luis Potosí, México",
-            "image": "images/4.webp",
+            "image": "4.webp",
             "membership": 1
         },
         {
@@ -42,7 +42,7 @@
             "phone": "(+52) 7823456880",
             "website": "https://www.businessfive.com",
             "address": "Independencia street #11, San Luis Potosí, México",
-            "image": "images/5.webp",
+            "image": "5.webp",
             "membership": 2
         },
         {
@@ -51,7 +51,7 @@
             "phone": "(+52) 7823456881",
             "website": "https://www.businesssix.com",
             "address": "Hidalgo street #13, San Luis Potosí, México",
-            "image": "images/6.webp",
+            "image": "6.webp",
             "membership": 3
         },
         {
@@ -60,7 +60,7 @@
             "phone": "(+52) 7823456882",
             "website": "https://www.businessseven.com",
             "address": "Zaragoza street #15, San Luis Potosí, México",
-            "image": "images/7.webp",
+            "image": "7.webp",
             "membership": 1
         },
         {
@@ -69,7 +69,7 @@
             "phone": "(+52) 7823456883",
             "website": "https://www.businesseight.com",
             "address": "Madero street #17, San Luis Potosí, México",
-            "image": "images/8.webp",
+            "image": "8.webp",
             "membership": 2
         }
     ]
