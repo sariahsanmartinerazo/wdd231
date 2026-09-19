@@ -1,7 +1,55 @@
 @media screen and (min-width: 700px) {
-    #member-container {
+
+    header {
         display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        padding: 1rem 5%;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    #navigation {
+        display: block;
+    }
+
+    #navigation ul {
+        display: flex;
+        gap: 0.5rem;
+        margin: 0;
+    }
+
+    #navigation li {
+        margin: 0;
+    }
+
+    #navigation a {
+        padding: 0.7rem 1rem;
+    }
+
+    main {
+        width: min(90%, 1200px);
+    }
+
+    .grid-view {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    .grid-view {
         grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
+    }
+
+    .member-card {
+        min-height: 100%;
+    }
+
+    h1 {
+        font-size: 2.2rem;
     }
 }
