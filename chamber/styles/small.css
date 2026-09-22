@@ -339,3 +339,21 @@ footer a {
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
+
+.events h2 {
+    margin-top: 0;
+    color: var(--dark-color);
+}
+
+.events article {
+    border-top: 2px solid var(--secondary-color);
+    padding-top: 1rem;
+}
+
+.events h3 {
+    margin-bottom: 0.5rem;
+}
+
+.events p {
+    margin: 0.5rem 0;
+}
