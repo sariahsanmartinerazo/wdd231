@@ -296,3 +296,23 @@ footer a {
     cursor: pointer;
     padding: 0;
 }
+
+/* =========================
+   Hero
+========================= */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-content {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
