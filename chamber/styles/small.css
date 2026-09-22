@@ -321,6 +321,10 @@ footer a {
 
 .hero-content a {
     display: inline-block;
-    padding: o.75rem 1.25rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--light-color);
+    color: var(--dark-color);
     text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
