@@ -186,4 +186,4 @@ fetch(forecastURL)
     .then(response => response.jason())
     .then(data => {
         console.log(data);
-    }) 
+    });
