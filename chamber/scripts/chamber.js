@@ -142,8 +142,11 @@ document.querySelector("#currentyear").textContent = new Date().getFullYear();
 // Last modified date
 document.querySelector("#lastmodified").textContent = document.lastModified;
 
-// Load members
-getMembers();
+// Load members only on the directory page
+if (memberContainer) {
+    getMembers();
+}
+
 // Dark mode
 themeButton.addEventListener("click", () => {
     document.body.classList.toggle("dark-mode");
