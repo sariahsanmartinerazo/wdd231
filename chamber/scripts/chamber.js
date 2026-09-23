@@ -182,7 +182,8 @@ fetch(weatherURL)
         document.querySelector("#description").textContent = description;
     });
 
-
-
-
-
+fetch(forecastURL)
+    .then(response => response.jason())
+    .then(data => {
+        console.log(data);
+    }) 
