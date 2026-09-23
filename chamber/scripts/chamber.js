@@ -157,3 +157,13 @@ themeButton.addEventListener("click", () => {
     }
 });
 
+//weather
+const API_KEY = "a1b987205d22701279a2a5151569aa64";
+const city = "Poza Rica,MX";
+const weatherURL = `https://api.openweathermap.org/data/
+/weather?q=${city}&appid?${API_KEY}&units=metric`;
+fetch(weatherURL)
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+    });
