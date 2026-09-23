@@ -166,3 +166,6 @@ fetch(weatherURL)
     .then(data => {
         console.log(data);
     });
+
+
+
