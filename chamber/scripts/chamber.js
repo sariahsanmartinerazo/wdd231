@@ -171,8 +171,10 @@ const weatherURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&ap
 fetch(weatherURL)
     .then(response => response.json())
     .then(data => {
-        console.log(data);
+        console.log(data.main.temp);
+        console.log(data.weather[0].description);
     });
+
 
 
 
