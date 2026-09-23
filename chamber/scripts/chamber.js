@@ -100,7 +100,8 @@ function displayMembers(members) {
 }
 
 // Grid view
-gridButton.addEventListener("click", () => {
+if (gridButton) {
+    gridButton.addEventListener("click", () => {
     memberContainer.classList.add("grid-view");
     memberContainer.classList.remove("list-view");
 
@@ -109,19 +110,22 @@ gridButton.addEventListener("click", () => {
 
     gridButton.setAttribute("aria-pressed", "true");
     listButton.setAttribute("aria-pressed", "false");
-});
+    });
+}
 
 // List view
-listButton.addEventListener("click", () => {
-    memberContainer.classList.add("list-view");
-    memberContainer.classList.remove("grid-view");
+if (listButton) {
+    listButton.addEventListener("click", () => {
+        memberContainer.classList.add("list-view");
+        memberContainer.classList.remove("grid-view");
 
-    listButton.classList.add("active");
-    gridButton.classList.remove("active");
+        listButton.classList.add("active");
+        gridButton.classList.remove("active");
 
-    gridButton.setAttribute("aria-pressed", "false");
-    listButton.setAttribute("aria-pressed", "true");
-});
+        gridButton.setAttribute("aria-pressed", "false");
+        listButton.setAttribute("aria-pressed", "true");
+    });
+}
 
 // Mobile navigation
 menuButton.addEventListener("click", () => {
