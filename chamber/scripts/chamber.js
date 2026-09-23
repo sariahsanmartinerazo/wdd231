@@ -173,7 +173,14 @@ fetch(weatherURL)
     .then(data => {
         console.log(data.main.temp);
         console.log(data.weather[0].description);
+
+        console.log(temperature);
+        console.log(description);
+
+        document.querySelector("#temperature").textContent = `${temperature} °C`;
+        document.querySelector("#description").textContent = description;
     });
+
 
 
 
