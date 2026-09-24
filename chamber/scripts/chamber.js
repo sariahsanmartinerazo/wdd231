@@ -185,5 +185,9 @@ fetch(weatherURL)
 fetch(forecastURL)
     .then(response => response.json())
     .then(data => {
-        console.log(data);
+        const forecast = data.list;
+
+        console.log(forecast[0]);
+        console.log(forecast[8]);
+        console.log(forecast[16]);
     });
