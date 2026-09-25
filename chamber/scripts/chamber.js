@@ -186,7 +186,9 @@ fetch(forecastURL)
     .then(response => response.json())
     .then(data => {
         const forecast = data.list;
-
+        const forecastContainer = document.querySelector("#forecast-container");
+        
+        //console.log
         console.log(forecast[0].dt_txt);
         console.log(forecast[0].main.temp);
         console.log(forecast[0].weather[0].description);
