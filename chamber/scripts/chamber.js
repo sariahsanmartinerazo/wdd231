@@ -187,15 +187,28 @@ fetch(forecastURL)
     .then(data => {
         const forecast = data.list;
         const forecastContainer = document.querySelector("#forecast-container");
-        const firstDay = forecast[0];
+        const selectedForecasts = [
+            forecast[0],
+            forecast[8],
+            forecast[16]
+        ];
 
-        forecastContainer.innerHTML = `
-            <article>
-                <h4>${firstDay.dt_txt}</h4>
-                <p>${firstDay.main.temp}°C</p>
-                <p>${firstDay.weather[0].description} </p>
-            </article>
-        `;
+        forecastContainer.innerHTML = "";
+
+        selectedForecasts.forEach((day) => {
+        forecastContainer.innerHTML += `
+        <article>
+            <h4>${day.dt_txt}</h4>
+            <p>${day.main.temp} °C</p>
+            <p>${day.weather[0].description}</p>
+        </article>
+    `;
+});
+
+        
+
+        
+            
         
 
         //console.log
