@@ -193,3 +193,4 @@ fetch(forecastURL)
         console.log(forecast[8]);
         console.log(forecast[16]);
     });
+    
