@@ -205,12 +205,6 @@ fetch(forecastURL)
     `;
 });
 
-        
-
-        
-            
-        
-
         //console.log
         console.log(forecast[0].dt_txt);
         console.log(forecast[0].main.temp);
