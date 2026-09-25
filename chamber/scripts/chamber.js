@@ -198,21 +198,25 @@ fetch(forecastURL)
         selectedForecasts.forEach((day) => {
         forecastContainer.innerHTML += `
         <article>
-            <h4>${day.dt_txt}</h4>
-            <p>${day.main.temp} °C</p>
-            <p>${day.weather[0].description}</p>
+            <h4>${firstDay.dt_txt}</h4>
+            <p>${firstDay.main.temp} °C</p>
+            <p>${firstDay.weather[0].description}</p>
         </article>
-    `;
+
+        <article>
+            <h4>${secondDay.dt_txt}</h4>
+            <p>${secondDay.main.temp} °C</p>
+            <p>${secondDay.weather[0].description}</p>
+        </article>
+
+        <article>
+            <h4>${thirdDay.dt_txt}</h4>
+            <p>${thirdDay.main.temp} °C</p>
+            <p>${thirdDay.weather[0].description}</p>
+        </article>
+        `;
 });
 
-        //console.log
-        console.log(forecast[0].dt_txt);
-        console.log(forecast[0].main.temp);
-        console.log(forecast[0].weather[0].description);
-        console.log(forecast[8].dt_txt);
-        console.log(forecast[8].main.temp);
-        console.log(forecast[8].weather[0].description);
-        console.log(forecast[16].dt_txt);
-        console.log(forecast[16].main.temp);
-        console.log(forecast[16].weather[0].description);
-    });
+       
+
+
