@@ -187,7 +187,15 @@ fetch(forecastURL)
     .then(data => {
         const forecast = data.list;
         const forecastContainer = document.querySelector("#forecast-container");
-        
+        const firstDay = forecast[0];
+
+        forecastContainer.innerHTML =
+            <article>
+                <h4>${firstDay.dt_txt}</h4>
+                <p>${firstDay.main.temp}°C</p>
+                <p>${firstDay.weather[0].description} </p>
+            </article>
+
         //console.log
         console.log(forecast[0].dt_txt);
         console.log(forecast[0].main.temp);
