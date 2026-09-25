@@ -214,7 +214,7 @@ fetch(forecastURL)
             <p>${thirdDay.main.temp} °C</p>
             <p>${thirdDay.weather[0].description}</p>
         </article>
-        `;
+     `;
 });
 
        
