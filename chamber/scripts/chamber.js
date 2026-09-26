@@ -99,10 +99,8 @@ function displayMembers(members) {
                     </a>
                 </p>
                 <p>
-                    <strong>Member ship:</strong>
-                    <a href="Member:${member.membership}">
-                        ${member.membership}
-                    </a>
+                    <strong>Membership:</strong>
+                    ${member.membership === 3? "Gold member" : "Silver member"}
                 </p>
 
                 <p>
