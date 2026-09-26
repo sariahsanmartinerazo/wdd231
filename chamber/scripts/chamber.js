@@ -36,6 +36,10 @@ async function getMembers() {
             <h3>${member.name}</h3>
             <p>${member.address}</p>
             <p>${member.phone}</p>
+            <p><strong>Membership:</strong>
+            ${member.membership === 3? "Gold Member" : "Silver Member"}
+             </p>
+
             <a href="${member.website}" target="_blank" rel="noopener noreferrer">
             Visit Website </a>
             </article>
