@@ -65,7 +65,7 @@
 
     #forecast-container {
         grid-template-columns: repeat(3, 1fr);
-        gap: 1.5 rem;
+        gap: 1.5rem;
     }
 
     #current-weather {
