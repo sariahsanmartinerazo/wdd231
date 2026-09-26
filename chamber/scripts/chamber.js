@@ -167,7 +167,7 @@ document.querySelector("#currentyear").textContent = new Date().getFullYear();
 document.querySelector("#lastmodified").textContent = document.lastModified;
 
 // Load members only on the directory page
-if (memberContainer) {
+if (memberContainer || spotlightContainer) {
     getMembers();
 }
 
