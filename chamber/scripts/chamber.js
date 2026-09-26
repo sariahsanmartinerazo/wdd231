@@ -23,7 +23,23 @@ async function getMembers() {
             const qualifiedMembers = data.members.filter(
                 member => member.membership >= 2
             );
+            const selectedMembers = qualifiedMembers
+                .sort(() => 0.5 - Math.random())
+                .slice(0, 3);
         }
+        selectedMembers.forEach((member) => {
+            spotlightContainer.innerHTML += `
+            <article class = "spotlight-card">
+            <img src="images/${member.image}" alt="${member.name} logo">
+            <h3>${member.name}</h3>
+            <p>${member.address}</p>
+            <p>${member.phone}</p>
+            <a href="${member.website}" target="_blank" rel="noopener noreferrer">
+            Visit Website </a>
+            </article>
+            `;
+        });
+
     } catch (error) {
         console.error("Error loading member data:", error);
 
