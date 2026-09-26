@@ -46,11 +46,13 @@ async function getMembers() {
     } catch (error) {
         console.error("Error loading member data:", error);
 
-        memberContainer.innerHTML = `
+        if (memberContainer) {
+           memberContainer.innerHTML = `
             <p class="error-message">
                 Sorry, the member directory could not be loaded.
             </p>
-        `;
+        `; 
+        }     
     }
 }
 
