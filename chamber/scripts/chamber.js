@@ -98,6 +98,12 @@ function displayMembers(members) {
                         ${member.phone}
                     </a>
                 </p>
+                <p>
+                    <strong>Member ship:</strong>
+                    <a href="Member:${member.membership}">
+                        ${member.membership}
+                    </a>
+                </p>
 
                 <p>
                     <strong>Email:</strong>
