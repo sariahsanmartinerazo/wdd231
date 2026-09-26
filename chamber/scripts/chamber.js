@@ -99,8 +99,8 @@ function displayMembers(members) {
                     </a>
                 </p>
                 <p>
-                    <strong>Membership:</strong>
-                    ${member.membership === 3? "Gold member" : "Silver member"}
+                <strong>Membership:</strong>
+                ${member.membership}
                 </p>
 
                 <p>
