@@ -63,7 +63,7 @@
         gap: 1.5rem;
     }
 
-    #forcast-container {
+    #forecast-container {
         grid-template-columns: repeat(3, 1fr);
         gap: 1.5 rem;
     }
