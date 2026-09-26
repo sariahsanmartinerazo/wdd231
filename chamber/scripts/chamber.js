@@ -187,8 +187,10 @@ if (temperatureElement && descriptionElement) {
         document.querySelector("#description").textContent = description;
     });
 }
-
-fetch(forecastURL)
+//forecast 
+const forecastContainer = document.querySelector("#forecast-container");
+if (forecastContainer) {
+    fetch(forecastURL)
     .then(response => response.json())
     .then(data => {
 
@@ -215,6 +217,8 @@ fetch(forecastURL)
             `;
         });
     });
+}
+
 
        
 
