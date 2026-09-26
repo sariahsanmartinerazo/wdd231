@@ -62,5 +62,14 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 1.5rem;
     }
+
+    #forcast-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5 rem;
+    }
+
+    #current-weather {
+        grid-template-columns: auto;
+    }
 }
 
