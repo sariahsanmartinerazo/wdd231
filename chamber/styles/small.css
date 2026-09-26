@@ -357,3 +357,45 @@ footer a {
 .events p {
     margin: 0.5rem 0;
 }
+
+/*spotlight*/
+.spotlights {
+    margin-top: 1.5rem;
+}
+
+.spotlights h2 {
+    text-align: center;
+}
+
+#spotlight-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.spotlight-card {
+    background-color: var(--accent-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.spotlight-card img { 
+    width: 120px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.spotlight-card h3 {
+    color: var(--dark-color);
+}
+
+.spotlight-card p {
+    margin: 0.5rem 0;
+}
+
+.spotlight-card a { 
+    display: inline-block;
+    margin-top: 0.75rem;
+}
