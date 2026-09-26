@@ -18,6 +18,12 @@ async function getMembers() {
         const data = await response.json();
 
         displayMembers(data.members);
+
+        if (spotlightContainer) {
+            const qualifiedMembers = data.members.filter(
+                member => member.membership >= 2
+            );
+        }
     } catch (error) {
         console.error("Error loading member data:", error);
 
