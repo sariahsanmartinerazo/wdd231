@@ -26,7 +26,7 @@ async function getMembers() {
             const selectedMembers = qualifiedMembers
                 .sort(() => 0.5 - Math.random())
                 .slice(0, 3);
-        }
+       
         selectedMembers.forEach((member) => {
             spotlightContainer.innerHTML += `
             <article class = "spotlight-card">
@@ -39,6 +39,7 @@ async function getMembers() {
             </article>
             `;
         });
+        }
 
     } catch (error) {
         console.error("Error loading member data:", error);
