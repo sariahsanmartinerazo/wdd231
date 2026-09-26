@@ -4,6 +4,7 @@ const listButton = document.querySelector("#list-view");
 const menuButton = document.querySelector("#menu-button");
 const navigation = document.querySelector("#navigation");
 const themeButton = document.querySelector("#theme-toggle");
+const spotlightContainer = document.querySelector("#spotlight-container");
 
 // Get member data from JSON
 async function getMembers() {
@@ -215,6 +216,7 @@ if (forecastContainer) {
         });
     });
 }
+
 
 
        
