@@ -360,7 +360,7 @@ footer a {
 
 /*spotlight*/
 .spotlights {
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
 }
 
 .spotlights h2 {
@@ -369,21 +369,21 @@ footer a {
 
 #spotlight-container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr, 2fr;
     gap: 1.5rem;
 }
 
 .spotlight-card {
     background-color: var(--accent-color);
     padding: 1.5rem;
-    border-radius: 8px;
+    border-radius: 2px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     text-align: center;
 }
 
 .spotlight-card img { 
-    width: 120px;
-    height: 80px;
+    width: 500px;
+    height: 300px;
     object-fit: contain;
 }
 
