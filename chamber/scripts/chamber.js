@@ -169,7 +169,12 @@ const API_KEY = "a1b987205d22701279a2a5151569aa64";
 const city = "Poza Rica,MX";
 const weatherURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
 const forecastURL = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${API_KEY}&units=metric`;
-fetch(weatherURL)
+const temperatureElement = document.querySelector("#temperature");
+const descriptionElement = document.querySelector("#description");
+
+if (temperatureElement && descriptionElement) {
+
+    fetch(weatherURL)
     .then(response => response.json())
     .then(data => {
         const temperature = data.main.temp;
@@ -181,6 +186,7 @@ fetch(weatherURL)
         document.querySelector("#temperature").textContent = `${temperature} °C`;
         document.querySelector("#description").textContent = description;
     });
+}
 
 fetch(forecastURL)
     .then(response => response.json())
