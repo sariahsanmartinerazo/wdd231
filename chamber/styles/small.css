@@ -399,3 +399,40 @@ footer a {
     display: inline-block;
     margin-top: 0.75rem;
 }
+
+/*forecast*/
+.forecast {
+    margin-top: 0.5rem;
+}
+
+.forecast h2 {
+    text-align: center;
+}
+
+#forecast-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.forecast-card {
+    background-color: var(--accent-color);
+    padding: 1.5rem;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+
+.forecast-card h3 {
+    color: var(--dark-color);
+}
+
+.forecast-card p {
+    margin: 0.5rem 0;
+}
+
+.forecast-card a { 
+    display: inline-block;
+    margin-top: 0.75rem;
+}
