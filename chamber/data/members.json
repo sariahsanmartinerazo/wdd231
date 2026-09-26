@@ -7,7 +7,7 @@
             "website": "https://www.businessone.com",
             "address": "Roma street #3, San Luis Potosí, México",
             "image": "1.webp",
-            "membership": "Member"
+            "membership": 1
         },
         {
             "name": "Business Two",
@@ -16,7 +16,7 @@
             "website": "https://www.businesstwo.com",
             "address": "Constitución street #5, San Luis Potosí, México",
             "image": "2.webp",
-            "membership": "Silver Member"
+            "membership": 2
         },
         {
             "name": "Business Three",
@@ -25,7 +25,7 @@
             "website": "https://www.businessthree.com",
             "address": "Juárez street #7, San Luis Potosí, México",
             "image": "3.webp",
-            "membership": "Gold Member"
+            "membership": 3
         },
         {
             "name": "Business Four",
@@ -34,7 +34,7 @@
             "website": "https://www.businessfour.com",
             "address": "Revolución street #9, San Luis Potosí, México",
             "image": "4.webp",
-            "membership": "Member"
+            "membership": 1
         },
         {
             "name": "Business Five",
@@ -43,7 +43,7 @@
             "website": "https://www.businessfive.com",
             "address": "Independencia street #11, San Luis Potosí, México",
             "image": "5.webp",
-            "membership": "Silver Member"
+            "membership": 2
         },
         {
             "name": "Business Six",
@@ -52,7 +52,7 @@
             "website": "https://www.businesssix.com",
             "address": "Hidalgo street #13, San Luis Potosí, México",
             "image": "6.webp",
-            "membership": "Gold Member"
+            "membership": 3
         },
         {
             "name": "Business Seven",
@@ -61,7 +61,7 @@
             "website": "https://www.businessseven.com",
             "address": "Zaragoza street #15, San Luis Potosí, México",
             "image": "7.webp",
-            "membership": "Member"
+            "membership": 1
         },
         {
             "name": "Business Eight",
@@ -70,7 +70,7 @@
             "website": "https://www.businesseight.com",
             "address": "Madero street #17, San Luis Potosí, México",
             "image": "8.webp",
-            "membership": "Silver Member"
+            "membership": 2
         }
     ]
 }
