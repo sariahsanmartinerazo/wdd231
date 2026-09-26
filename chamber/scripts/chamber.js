@@ -251,6 +251,78 @@ if (forecastContainer) {
         });
     });
 }
+/* =========================
+   WEATHER
+========================= */
+
+.weather {
+    background-color: var(--light-color);
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.weather h2 {
+    text-align: center;
+    margin-top: 0;
+    color: var(--dark-color);
+}
+
+#current-weather {
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+#current-weather h3 {
+    margin-top: 0;
+    color: var(--dark-color);
+}
+
+#temperature {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    color: var(--dark-color);
+}
+
+#description {
+    margin: 0;
+    text-transform: capitalize;
+}
+
+#forecast h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--dark-color);
+}
+
+#forecast-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+#forecast-container article {
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    border-top: 3px solid var(--secondary-color);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#forecast-container h4 {
+    margin-top: 0;
+    color: var(--dark-color);
+}
+
+#forecast-container p {
+    margin: 0.4rem 0;
+}
 
 
 
