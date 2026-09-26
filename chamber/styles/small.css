@@ -369,7 +369,7 @@ footer a {
 
 #spotlight-container {
     display: grid;
-    grid-template-columns: 1fr, 2fr;
+    grid-template-columns: 1fr;
     gap: 1.5rem;
 }
 
