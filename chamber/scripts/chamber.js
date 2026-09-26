@@ -17,7 +17,9 @@ async function getMembers() {
 
         const data = await response.json();
 
-        displayMembers(data.members);
+        if (memberContainer) {
+            displayMembers(data.members);
+        }
 
         if (spotlightContainer) {
             const qualifiedMembers = data.members.filter(
