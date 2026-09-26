@@ -195,9 +195,6 @@ if (forecastContainer) {
     .then(data => {
 
         const forecast = data.list;
-
-        const forecastContainer = document.querySelector("#forecast-container");
-
         const selectedForecasts = [
             forecast[0],
             forecast[8],
