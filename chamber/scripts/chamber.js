@@ -271,7 +271,7 @@ const closeButtons = document.querySelectorAll("dialog button");
 closeButtons.forEach((button) => {
     button.addEventListener("click", () => {
         const dialog = button.parentElement;
-        dialog.closest();
+        dialog.close();
     });
 });
 
