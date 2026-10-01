@@ -277,6 +277,33 @@ const timestampField = document.querySelector("#timestamp");
 if (timestampField) {
     timestampField.value = new Date().toISOString();
 }
+
+//Thank you page
+const submissionDetails = document.querySelector("#submission-details");
+if (submissionDetails) {
+    const params = new URLSearchParams(window.location.search);
+    
+    const firstName = params.get("firstName");
+    const lastName = params.get("lastName");
+    const email = params.get("email");
+    const mobilePhone = params.get("mobilePhone");
+    const organization = params.get("organization");
+    const membership = params.get("membership");
+    const comments = params.get("comments");
+    const timestamp = params.get("timestamp");
+    
+
+    submissionDetails.innerHTML = `
+        <p><strong>First Name:</strong> ${firstName}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Mobile Phone:</strong> ${mobilePhone}</p>
+        <p><strong>Organization:</strong> ${organization}</p>
+        <p><strong>Last Name:</strong> ${lastName}</p>
+        <p><strong>Membership:</strong> ${membership}</p>
+        <p><strong>Comments:</strong> ${comments}</p>
+        <p><strong>Submission Date and Time:</strong> ${timestamp}</p>
+    `;
+}
     
 
 
