@@ -289,18 +289,16 @@ if (submissionDetails) {
     const mobilePhone = params.get("mobilePhone");
     const organization = params.get("organization");
     const membership = params.get("membership");
-    const comments = params.get("comments");
     const timestamp = params.get("timestamp");
     
 
     submissionDetails.innerHTML = `
         <p><strong>First Name:</strong> ${firstName}</p>
+        <p><strong>Last Name:</strong> ${lastName}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Mobile Phone:</strong> ${mobilePhone}</p>
         <p><strong>Organization:</strong> ${organization}</p>
-        <p><strong>Last Name:</strong> ${lastName}</p>
         <p><strong>Membership:</strong> ${membership}</p>
-        <p><strong>Comments:</strong> ${comments}</p>
         <p><strong>Submission Date and Time:</strong> ${timestamp}</p>
     `;
 }
