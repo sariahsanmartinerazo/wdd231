@@ -252,7 +252,7 @@ if (forecastContainer) {
     });
 }
 
-//member
+//membership card dialog
 const membershipLinks = document.querySelectorAll(".membership-card a");
 const membershipDialogs = document.querySelectorAll(".membership-levels + dialog");
 
@@ -267,10 +267,11 @@ membershipLinks.forEach((link) => {
     });
 }); 
 
-const closeButtons = document.querySelectorAll(".membership-card + dialog button");
+const closeButtons = document.querySelectorAll("dialog button");
 closeButtons.forEach((button) => {
     button.addEventListener("click", () => {
-        button.closest("dialog").close();
+        const dialog = button.parentElement;
+        dialog.closest();
     });
 });
 
