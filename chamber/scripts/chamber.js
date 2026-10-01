@@ -267,6 +267,13 @@ membershipLinks.forEach((link) => {
     });
 }); 
 
+const closeButtons = document.querySelectorAll(".membership-card + dialog button");
+closeButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+        button.closest("dialog").close();
+    });
+});
+
 
 
        
