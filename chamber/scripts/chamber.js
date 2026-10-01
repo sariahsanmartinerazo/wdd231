@@ -254,7 +254,6 @@ if (forecastContainer) {
 
 //membership card dialog
 const membershipLinks = document.querySelectorAll(".membership-card a");
-const membershipDialogs = document.querySelectorAll(".membership-levels + dialog");
 
 membershipLinks.forEach((link) => { 
     link.addEventListener("click", (event) => {
@@ -270,7 +269,7 @@ membershipLinks.forEach((link) => {
 const closeButtons = document.querySelectorAll("dialog button");
 closeButtons.forEach((button) => {
     button.addEventListener("click", () => {
-        const dialog = button.parentElement;
+        const dialog = button.closest("dialog");
         dialog.close();
     });
 });
