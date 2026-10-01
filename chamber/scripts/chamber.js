@@ -252,6 +252,21 @@ if (forecastContainer) {
     });
 }
 
+//member
+const membershipLinks = document.querySelectorAll(".membership-card a");
+const membershipDialogs = document.querySelectorAll(".membership-levels + dialog");
+
+membershipLinks.forEach((link) => { 
+    link.addEventListener("click", (event) => {
+        event.preventDefault();
+
+        const dialogId = link.getAttribute("href").substring(1);
+        const dialog = document.querySelector(`#${dialogId}`);
+
+        dialog.showModal();
+    });
+}); 
+
 
 
        
