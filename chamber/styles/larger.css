@@ -1,4 +1,4 @@
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 375px) {
     footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -71,10 +71,11 @@
     #current-weather {
         grid-template-columns: auto;
     }
-}
+
 
 .join-layout {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.3fr 1fr;
     align-items: start;
 }
 
+}
