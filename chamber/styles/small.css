@@ -487,3 +487,12 @@ footer a {
 #forecast-container p {
     margin: 0.4rem 0;
 }
+
+/* =========================
+   Join Layout
+========================= */
+
+.join-layout {
+    display: grid;
+    gap: 2rem;
+}
