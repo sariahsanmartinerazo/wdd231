@@ -534,6 +534,15 @@ form label {
     text-align: left;
 }
 
+fieldset label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.4rem;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
 form input, form textarea {
     font-size: 1rem;
     padding: 0.5rem;
