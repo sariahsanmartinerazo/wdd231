@@ -182,7 +182,7 @@ h1 {
 }
 
 .membership-card {
-    animation: membershipAppear 1s ease-in-out;
+    animation: membershipAppear 1.2s ease-in-out;
 }
 
 @keyframes membershipAppear {
