@@ -521,10 +521,17 @@ form {
     gap: 1rem;
 }
 
-form label, form legend {
-    font-size: 1.8rem;
-    text-align: center;
-    
+form legend {
+    flex-direction: column;
+    display: flex;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: left;
 }
 
 form input, form textarea {
