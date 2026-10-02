@@ -476,11 +476,15 @@ footer a {
    Join Layout
 ========================= */
 
+
+
 .join-layout {
     display: grid;
     gap: 2rem;
 }
-
+/* =========================
+   Membership Card Animation
+========================= */
 
 @keyframes membershipAppear {
     from {
@@ -495,11 +499,35 @@ footer a {
 }
 
 .membership-card {
-    background-color: var(--white);
+    background-color: var(--accent-color);
     border: 1px solid var(--border-color);
     border-radius: 8px;
     padding: 1rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     box-sizing: border-box;
     animation: membershipAppear 1.2s ease-out;
+}
+
+.membership-levels {
+    display: grid;
+    gap: 1.5rem;
+}
+/* =========================
+   form
+========================= */
+
+form {
+    display: grid;
+    gap: 1rem;
+}
+
+form label, form legend {
+    font-size: 1.8rem;
+    text-align: center;
+    
+}
+
+form input, form textarea {
+    font-size: 1rem;
+    padding: 0.5rem;
 }
