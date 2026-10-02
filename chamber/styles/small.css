@@ -179,7 +179,10 @@ h1 {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     height: 100%;
     box-sizing: border-box;
-    animation: membershipAppear 0.8s ease-out;
+}
+
+.membership-card {
+    animation: membershipAppear 0.5s ease-in-out;
 }
 
 @keyframes membershipAppear {
