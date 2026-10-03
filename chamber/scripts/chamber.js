@@ -290,6 +290,9 @@ if (submissionDetails) {
     const organization = params.get("organization");
     const membership = params.get("membership");
     const timestamp = params.get("timestamp");
+    const website = params.get("website");
+    const description = params.get("description");
+    const organizationTitle = params.get("organizationTitle");
     
 
     submissionDetails.innerHTML = `
@@ -300,6 +303,9 @@ if (submissionDetails) {
         <p><strong>Organization:</strong> ${organization}</p>
         <p><strong>Membership:</strong> ${membership}</p>
         <p><strong>Submission Date and Time:</strong> ${timestamp}</p>
+        <p><strong>Website:</strong> ${website}</p>
+        <p><strong>Description:</strong> ${description}</p>
+        <p><strong>Organization Title:</strong> ${organizationTitle}</p>
     `;
 }
     
