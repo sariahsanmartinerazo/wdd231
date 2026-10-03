@@ -547,3 +547,43 @@ form input, form textarea {
     font-size: 1rem;
     padding: 0.5rem;
 }
+/* DARK MODE */
+body.dark-mode {
+    background-color: #17202a;
+    color: #ffffff;
+}
+
+body.dark-mode header {
+    background-color: #17202a;
+    color: #ffffff;
+}
+
+body.dark-mode footer {
+    background-color: #17202a;
+    color: #ffffff;
+}
+
+body.dark-mode a {
+    color: #ffffff;
+}
+
+body.dark-mode .member-card,
+body.dark-mode .forecast-card {
+    background-color: #333;
+    color: #ffffff;
+}
+
+body.dark-mode .events {
+    background-color: #333;
+    color: #ffffff;
+}
+
+body.dark-mode .spotlight-card {
+    background-color: #444;
+    color: #ffffff;
+}
+
+body.dark-mode #theme-toggle {
+    border-color: #ffffff;
+    color: #ffffff;
+}
