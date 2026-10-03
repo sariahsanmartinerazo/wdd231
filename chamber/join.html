@@ -78,6 +78,7 @@
                     name="firstName"
                     title="Enter your first name"
                     autocomplete="given-name"
+                    maxlength="20"
                     required
                     >
                 </label>
@@ -88,6 +89,7 @@
                     name="lastName"
                     title="Enter your last name"
                     autocomplete="family-name"
+                    maxlength="20"
                     required
                     >
                 </label>
@@ -119,6 +121,8 @@
                     name="mobilePhone"
                     title="Enter your mobile phone number"
                     autocomplete="tel"
+                    placeholder="555-555-5555"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                     required
                     >
                 </label>
@@ -129,7 +133,17 @@
                     name="organization"
                     title="Enter your business or organization name"
                     autocomplete="organization"
+                    maxlength="50"
                     required
+                    >
+                </label>
+                <label>
+                    <input
+                    type="URL"
+                    name="website"
+                    title="Enter your organization's website URL"
+                    autocomplete="url"
+                    placeholder="https://www.example.com"                   
                     >
                 </label>
                 <fieldset>
