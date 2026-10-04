@@ -1,4 +1,4 @@
-const discoverItems = [
+export const discoverItems = [
     {
         "name": "Casa Taller de la danza y el ballet",
         "address": "Agustin de Iturbide 660, Centro Historico SLP, SLP, Mexico",
@@ -12,19 +12,19 @@ const discoverItems = [
         "image": "abarrotesdmarket.webp"
     },
     {
-        "name": "Boutique Eva plaza Fiesta",
-        "address": "Av Himno Nacional 44590 SLP, SLP, Mexico",
+        "name": "Boutique Eva",
+        "address": "Av Himno Nacional 44 SLP, SLP, Mexico",
         "description": "Boitique Eva plaza Fiesta is a local boutique that offers a wide variety of fashion items, including clothing, shoes, and accessories.They are known for their unique selection and personalized service.",
         "image": "boitiqueevaplazafiesta.webp"
     },
     {
-        "name": "Fresas con crema La chingona",         
+        "name": "Fresas con crema La chingona",
         "address": "Av Himno Nacional 4415B SLP, SLP, Mexico",
         "description": "Fresas con crema La chingona is a local dessert shop that offers a variety of fresh fruit smoothies and creamy treats.They are known for their delicious flavors and friendly service.",
         "image": "fresasconcremalachingona.webp"
     },
     {
-        "name": "Ferreteria Marios",    
+        "name": "Ferreteria Marios",
         "address": "Av Simon Díaz 2090, Satelite Franciso I. Madero, SLP, Mexico",
         "description": "Ferreteria Marios is a local hardware store that offers a wide variety of tools and supplies for home improvement and construction projects.They are known for their knowledgeable staff and competitive prices.",
         "image": "ferreteriamarios.webp"
@@ -36,7 +36,7 @@ const discoverItems = [
         "image": "constanzo.webp"
     },
     {
-        "name": "Tacos los Volcanes",           
+        "name": "Tacos los Volcanes",
         "address": "Av. Himno Nacional 4405, SLP, SLP, Mexico",
         "description": "Tacos los Volcanes is a local taco stand that offers a variety of delicious tacos and other Mexican dishes.They are known for their authentic flavors and friendly service.",
         "image": "tacosvolcanes.webp"
@@ -47,7 +47,7 @@ const discoverItems = [
         "description": "Tienda de empeño Donde is a local pawn shop that offers a variety of items for loan and sale.They are known for their competitive rates and reliable service.",
         "image": "tiendadeempenodonde.webp"
     }
-]
+];
 
     
     
