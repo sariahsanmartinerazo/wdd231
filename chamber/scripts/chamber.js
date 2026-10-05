@@ -1,3 +1,4 @@
+import { discoverItems } from ".../data/discover.msj";
 const memberContainer = document.querySelector("#member-container");
 const gridButton = document.querySelector("#grid-view");
 const listButton = document.querySelector("#list-view");
@@ -307,6 +308,11 @@ if (submissionDetails) {
         <p><strong>Description:</strong> ${description}</p>
         <p><strong>Organization Title:</strong> ${organizationTitle}</p>
     `;
+    // Discover page
+    const discoverGrid = document.querySelector("#discover-grid");
+    
+
+
 }
     
 
