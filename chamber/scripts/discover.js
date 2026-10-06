@@ -7,12 +7,12 @@ import { discoverItems } from "../data/discover.mjs";
             card.classList.add(`card-${discoverItems.indexOf(item) + 1}`);
 
             card.innerHTML =`
-            <h2>${Item.name}</h2>
+            <h2>${item.name}</h2>
             <figure>
-            <img src="images/${Item.image}" alt="${Item.name}" loading="lazy">
+            <img src="images/${item.image}" alt="${item.name}" loading="lazy">
             </figure>
-            <address>${Item.address}</address>
-            <p>${Item.description}</p>
+            <address>${item.address}</address>
+            <p>${item.description}</p>
             <button type="button">Learn More</button>
             `;
             discoverGrid.appendChild(card);
