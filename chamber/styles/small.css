@@ -587,3 +587,17 @@ body.dark-mode #theme-toggle {
     border-color: #ffffff;
     color: #ffffff;
 }
+
+/*Discover Page*/
+.discover-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-areas: "one"
+    "two"
+    "three"
+    "four"
+    "five"
+    "six"
+    "seven"
+    "eight";
+}
