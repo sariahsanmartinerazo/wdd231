@@ -78,4 +78,12 @@
     align-items: start;
 }
 
+.discover-grid {
+    grid-template-areas:
+    "one two"
+    "three four"
+    "five six"
+    "seven eight";
+}
+
 }
