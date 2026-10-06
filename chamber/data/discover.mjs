@@ -12,22 +12,22 @@ export const discoverItems = [
         "image": "abarrotesdmarket.webp"
     },
     {
-        "name": "Boutique Eva",
-        "address": "Av Himno Nacional 44 SLP, SLP, Mexico",
+        "name": "Hotel boutique y Fonda Margarita",
+        "address": "Av Universidad No 300, Centro, 78000 SLP, SLP, Mexico",
         "description": "Boitique Eva plaza Fiesta is a local boutique that offers a wide variety of fashion items, including clothing, shoes, and accessories.They are known for their unique selection and personalized service.",
-        "image": "boitiqueevaplazafiesta.webp"
+        "image": "hotelboutique.webp"
     },
     {
         "name": "Fresas con crema La chingona",
         "address": "Av Himno Nacional 4415B SLP, SLP, Mexico",
         "description": "Fresas con crema La chingona is a local dessert shop that offers a variety of fresh fruit smoothies and creamy treats.They are known for their delicious flavors and friendly service.",
-        "image": "fresasconcremalachingona.webp"
+        "image": "lachingonafresas.webp"
     },
     {
         "name": "Ferreteria Marios",
         "address": "Av Simon Díaz 2090, Satelite Franciso I. Madero, SLP, Mexico",
         "description": "Ferreteria Marios is a local hardware store that offers a wide variety of tools and supplies for home improvement and construction projects.They are known for their knowledgeable staff and competitive prices.",
-        "image": "ferreteriamarios.webp"
+        "image": "Mariosferreteria.webp"
     },
     {
         "name": "Chocolateria Constanzo",
@@ -45,7 +45,7 @@ export const discoverItems = [
         "name": "Tienda de empeño Donde",
         "address": "Av. Juárez 123, Centro, 78000, SLP, Mexico",
         "description": "Tienda de empeño Donde is a local pawn shop that offers a variety of items for loan and sale.They are known for their competitive rates and reliable service.",
-        "image": "tiendadeempenodonde.webp"
+        "image": "tiendade.webp"
     }
 ];
 
