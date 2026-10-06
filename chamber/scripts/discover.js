@@ -2,7 +2,7 @@ import { discoverItems } from "../data/discover.mjs";
  // Discover page
     const discoverGrid = document.querySelector("#discover-grid");
     if (discoverGrid) {
-        discoverItems.forEach((Item) => {
+        discoverItems.forEach((item) => {
             const card = document.createElement("article");
             card.classList.add(`card-${discoverItems.indexOf(item) + 1}`);
 
