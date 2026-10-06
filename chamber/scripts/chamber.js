@@ -1,4 +1,3 @@
-import { discoverItems } from "../data/discover.mjs";
 const memberContainer = document.querySelector("#member-container");
 const gridButton = document.querySelector("#grid-view");
 const listButton = document.querySelector("#list-view");
