@@ -4,6 +4,7 @@ import { discoverItems } from "../data/discover.mjs";
     if (discoverGrid) {
         discoverItems.forEach((Item) => {
             const card = document.createElement("article");
+            card.classList.add(`card-${discoverItems.indexOf(item) + 1}`);
 
             card.innerHTML =`
             <h2>${Item.name}</h2>
