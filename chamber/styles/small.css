@@ -601,3 +601,34 @@ body.dark-mode #theme-toggle {
     "seven"
     "eight";
 }
+.card-1 {
+    grid-area: one;
+}
+
+.card-2 {
+    grid-area: two;
+}
+
+.card-3 {
+    grid-area: three:
+}
+
+.card-4 {
+    grid-area: four;
+}
+
+.card-5 {
+    grid-area: five;
+}
+
+.card-6 {
+    grid-area: six;
+}
+
+.card-7 {
+    grid-area: seven;
+}
+
+.card-8 {
+    grid-area: eight;
+}
