@@ -88,11 +88,23 @@
 
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 641px) and (max-width:1024px) {
     .discover-grid {
+        grid-template-columns: 1fr 1fr;
         grid-template-areas:
         "one one two three"
         "four five five six"
         "seven eight eight six";
+    }
+}
+
+/*Discover Large*/
+@media screen and (min-width: 1025px) {
+    .discover-grid {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+        "one one two three"
+        "four five five six"
+        "seven eight eight six"
     }
 }
