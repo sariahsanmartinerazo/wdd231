@@ -124,5 +124,37 @@
 /*Discover - card design */
 
 .discover-grid article {
-    
+    background: white;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 1rem;
+
+}
+
+.discover-grid h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.discover-grid figure {
+    margin: 0 0 1rem 0;
+}
+
+.discover-grid img {
+    display: block;
+    width: 100;
+    height: auto;
+}
+
+.discover-grid address {
+    margin-bottom: 1rem;
+}
+
+.discover-grid p {
+    line-height: 1.5;
+}
+
+.discover-grid button {
+    padding: 0.5 rem 1rem;
+    cursor: pointer;
 }
