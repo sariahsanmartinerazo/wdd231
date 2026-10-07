@@ -17,4 +17,8 @@ import { discoverItems } from "../data/discover.mjs";
             `;
             discoverGrid.appendChild(card);
         });
-    }
+}
+// visitor message
+const visitorMessage = document.querySelector("#visitor-message");
+const lastVisit = localStorage.getItem("lastVisit");
+const currentVisit = Date.now();
