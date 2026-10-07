@@ -87,3 +87,12 @@
 }
 
 }
+
+@media (min-width: 1025px) {
+    .discover-grid {
+        grid-template-areas:
+        "one one two three"
+        "four five five six"
+        "seven eight eight six";
+    }
+}
