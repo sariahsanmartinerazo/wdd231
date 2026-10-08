@@ -20,3 +20,6 @@
     background-color: var(--primary-color);
     color: var(--text-color);
   }
+  section {
+    background-color: var(--soft-background);
+}
