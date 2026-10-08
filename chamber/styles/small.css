@@ -632,3 +632,24 @@ body.dark-mode #theme-toggle {
 .card-8 {
     grid-area: eight;
 }
+
+.discover-grid img {
+    display: block;
+    width: 300px;
+    height: 200px;
+    max-width: 100%;
+    object-fit: cover;
+    margin: auto;
+}
+
+.discover-grid article {
+    display: flex;
+    flex-direction: column;
+}
+
+.discover-grid button {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-top: auto;
+}
