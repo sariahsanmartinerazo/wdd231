@@ -9,7 +9,7 @@
  }
 
  button {
-    background-color: (var(--primary-color));
+    background-color: var(--primary-color);
  }
   
  body {
@@ -18,5 +18,5 @@
 
   header {
     background-color: var(--primary-color);
-    color: var(--white);
+    color: var(--text-color);
   }
