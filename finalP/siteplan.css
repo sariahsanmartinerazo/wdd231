@@ -1,28 +1,29 @@
 :root {
-    --primary-color: #f26e65;
+    --primary-color: #F44336;
     --soft-background: #FEE8E7;
     --text-color: #252525;
     --white: #FFFFFF;
 }
- h1 {
-    color: var(--text-color);
- }
 
- 
-
- button {
-    background-color: var(--primary-color);
- }
-  
- body {
+body {
     background-color: var(--white);
-  }
-
-  header {
-    background-color: var(--primary-color);
     color: var(--text-color);
-  }
+}
 
-  section {
-    background-color: var(--soft-background);
+h1 {
+    color: var(--white);
+}
+
+button {
+    background-color: var(--primary-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+header h1,
+header p {
+    color: var(--white);
 }
