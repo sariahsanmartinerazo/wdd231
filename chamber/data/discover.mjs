@@ -45,7 +45,7 @@ export const discoverItems = [
         "name": "Tienda de empeño Donde",
         "address": "Av. Juárez 123, Centro, 78000, SLP, Mexico",
         "description": "Tienda de empeño Donde is a local pawn shop that offers a variety of items for loan and sale.They are known for their competitive rates and reliable service.",
-        "image": "tiendade.webp"
+        "image": "Tiendade.webp"
     }
 ];
 
