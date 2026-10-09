@@ -26,14 +26,14 @@ if (!lastVisit) {
     visitorMessage.textContent =
         "Welcome! Let us know if you have any questions.";
 } else {
-    const daySinceVisit = Math.floor(
-        (currentVisit - Number(lastVisit)) / (100 * 60 * 60 * 24)
+    const daysSinceVisit = Math.floor(
+        (currentVisit - Number(lastVisit)) / (1000 * 60 * 60 * 24)
     );
-    if (daySinceVisit < 1) {
+    if (daysSinceVisit < 1) {
         visitorMessage.textContent = "Back so soon! Awesome!";
     } else {
         visitorMessage.textContent =
-            `You last visited ${daySinceVisit} ${daySinceVisit === 1 ? "day" : "days"} ago.`; 
+            `You last visited ${daysSinceVisit} ${daysSinceVisit === 1 ? "day" : "days"} ago.`; 
     }
 }
 localStorage.setItem("lastVisit", currentVisit);
