@@ -639,7 +639,7 @@ body.dark-mode #theme-toggle {
     height: 200px;
     max-width: 100%;
     object-fit: cover;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .discover-grid article {
