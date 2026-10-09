@@ -29,7 +29,7 @@ if (!lastVisit) {
     const daysSinceVisit = Math.floor(
         (currentVisit - Number(lastVisit)) / (100 * 60 * 60 * 24)
     );
-    if (daysSinceVisit < 1) {
+    if (daySinceVisit < 1) {
         visitorMessage.textContent = "Back so soon! Awesome!";
     } else {
         visitorMessage.textContent =
