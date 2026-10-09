@@ -102,11 +102,11 @@
 /*Discover Large*/
 @media screen and (min-width: 1025px) {
     .discover-grid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, minmax(0, 1fr));
         grid-template-areas:
         "one one two three"
-        "four five five six"
-        "seven eight eight six"
+        "four five six six"
+        "seven eight eight.";
     }
 }
 
