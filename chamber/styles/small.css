@@ -653,3 +653,9 @@ body.dark-mode #theme-toggle {
     align-self: flex-start;
     margin-top: auto;
 }
+#discover-heading {
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 1.5rem o 1rem;
+    color: var(--dark-color);
+}
