@@ -37,3 +37,4 @@ if (!lastVisit) {
     }
 }
 localStorage.setItem("lastVisit", currentVisit);
+
