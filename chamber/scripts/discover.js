@@ -2,7 +2,7 @@ import { discoverItems } from "../data/discover.mjs";
  // Discover page
     const discoverGrid = document.querySelector("#discover-grid");
     if (discoverGrid) {
-        discoverItems.forEach((item) => {
+        discoverItems.forEach((item, index) => {
             const card = document.createElement("article");
             card.classList.add(`card-${discoverItems.indexOf(item) + 1}`);
 
@@ -13,8 +13,7 @@ import { discoverItems } from "../data/discover.mjs";
             </figure>
             <address>${item.address}</address>
             <p>${item.description}</p>
-            <button type="button">Learn More</button>
-            `;
+            <button type="button" class="learn-more" data-index="${index}">Learn More</button>
             discoverGrid.appendChild(card);
         });
 }
@@ -37,4 +36,7 @@ if (!lastVisit) {
     }
 }
 localStorage.setItem("lastVisit", currentVisit);
+
+// modal discover 
+
 
