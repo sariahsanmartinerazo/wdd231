@@ -68,27 +68,37 @@
         </nav>
 
     </header>
-
+    
     <main>
         <h1>Discover Mexico</h1>
-        <section id="visitor-message" class="visitor-message"
-                 aria-label="Visit information">        
+        <section
+        id="visitor-message"
+        class="visitor-message"
+        aria-label="Visit information">
         </section>
-        <section id="discover-grid" class="discover-grid"
-                 aria-labelledby="discover-heading">
-                <h2 id="discover-heading">Places to Discover</h2>
+
+        <h2 id="discover-heading">Places to Discover</h2>
+
+        <section
+        id="discover-grid"
+        class="discover-grid"
+        aria-labelledby="discover-heading">
         </section>
+
+        <dialog id="place modal" aria-labelledby="modal-title">
+            <button
+            type="button"
+            id="close-modal"
+            aria-label="Close dialog">
+            &times;
+            </button>
+
+            <h2 id="modal-title">Place Details</h2>
+            <address id="modal-address"></address>
+            <p id="modal-description"></p>
+        </dialog>
     </main>
-    <section>
-        <dialog id="place-modal" aria-labelledby="modal-title">
-        <button type="button" id="close-modal" aria-label="Close dialog">
-        &times;
-       </button>
-       <h2 id="modal-title">Place Details</h2>
-       <address id="modal-address"></address>
-       <p id="modal-description"></p>
-       </dialog>
-    </section>
+
     <footer>
         <div id="footer-content">
             <p>Mexico Chamber of Commerce</p>
