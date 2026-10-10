@@ -104,5 +104,31 @@ if (
         placeModal.close();
     });
 }
+// Discover modal
+const placeModal = document.querySelector("#place-modal");
+const modalTitle = document.querySelector("#modal-title");
+const modalAddress = document.querySelector("#modal-address");
+const modalDescription = document.querySelector("#modal-description");
+const closeModal = document.querySelector("#close-modal");
 
+// Open the modal with the selected place
+discoverGrid.addEventListener("click", (event) => {
+    const button = event.target.closest(".learn-more");
+
+    if (!button) return;
+
+    const index = Number(button.dataset.index);
+    const item = discoverItems[index];
+
+    modalTitle.textContent = item.name;
+    modalAddress.textContent = item.address;
+    modalDescription.textContent = item.description;
+
+    placeModal.showModal();
+});
+
+// Close the modal
+closeModal.addEventListener("click", () => {
+    placeModal.close();
+});
 
