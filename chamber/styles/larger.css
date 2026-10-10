@@ -163,3 +163,10 @@
     align-self: flex-start;
     margin-top: auto;
 }
+
+@media screen and (min-width: 768px) {
+    #discover-heading {
+        text-align: left;
+        margin: 1.5rem 0 1rem;
+    }
+}
