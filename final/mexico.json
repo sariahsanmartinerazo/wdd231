@@ -1,40 +1,157 @@
 {
     "MD": [
         {
-            "University": "", 
-            "Main focus": "",
-            "Admission requirements":"",
-            "opportunities": ""
+            "University": "UAM Xochimilco",
+            "link": "https://cbstmp.xoc.uam.mx/maestria-en-ciencias-farmaceuticas/convocatoria/",
+            "Main focus": "Pharmaceutical Sciences: Design and evaluation of dosage forms and biomolecules.",
+            "Admission requirements": [
+                "Bachelor's degree in Chemistry/Health fields",
+                "Minimum GPA: 8.0/10",
+                "English reading comprehension",
+                "Pass the admission exam"
+            ],
+            "opportunities": [
+                "CONAHCYT Maintenance Stipend eligible",
+                "Strong networking with the pharmaceutical hub in central Mexico",
+                "Advanced pharmaceutical technology labs."
+            ],
+            "Estimated Costs": "Approx. $1,500–$3,000 MXN per quarter/semester in administrative fees.",
         },
         {
-            "University": "", 
-            "Main focus": "",
-            "Admission requirements":"",
-            "opportunities": ""
-        },
+            "University": "Universidad de Guadalajara",
+            "link": "https://www.udg.mx/node/81312",
+            "Main focus": "Biopharmaceutical Sciences: Formulation and clinical drug usage.",
+            "Admission requirements": [
+                "STEM degree",
+                "GPA: 80/100",
+                "EXANI-III exam",
+                "TOEFL ITP (450+)",
+                "Interview"
+            ],
+            "opportunities": [
+                "CONAHCYT Stipend eligible",
+                "Research stays national/international",
+                "Focus on clinical application and biotech."
+            ],
+            "Estimated Costs": " Approx. $4,000–$6,000 MXN per semester in registration fees."
+        }, 
         {
-            "University": "", 
-            "Main focus": "",
-            "Admission requirements":"",
-            "opportunities": ""
-        },
+            "University": "UNAM (Faculty of Chemistry)",
+            "link": "https://quimica.unam.mx/ensenanza/posgrados-de-la-facultad-de-quimica/maestria-y-doctorado-en-ingenieria-campo-de-conocimiento-ingenieria-quimica/",
+            "Main focus": "Chemical Engineering: Processes, polymers, and reactors.",
+            "Admission requirements": [
+                "Degree or proof of examination",
+                "Minimum GPA: 8.0/10",
+                "Knowledge & skills exam",
+                "UNAM-approved English certificate"
+            ],
+            "opportunities": [
+                "Mexico's largest scientific infrastructure",
+                "Global job board and alumni network",
+                "Academic exchanges (great for EU/USA)."
+            ],
+            "Estimated Costs": " Approx. $4,000–$6,000 MXN per semester in registration fees."
+        }, 
         {
-            "University": "", 
-            "Main focus": "",
-            "Admission requirements":"",
-            "opportunities": ""
-        },
+            "University": "IPN (School of Medicine)",
+            "link": "https://www.sepi.esm.ipn.mx/oferta-educativa/maestria-en-ciencias-en-farmacologia.html",
+            "Main focus": "Pharmacology: Quality control, R&D in the pharma industry and health services.",
+            "Admission requirements": [
+                "Professional Bachelor's degree",
+                "Minimum GPA: 8.0/10",
+                "Knowledge and psychometric exams",
+                "English proficiency (CENLEX)"
+            ],
+            "opportunities": [
+                "CONAHCYT Stipend eligible",
+                "Projects funded by pharmaceutical firms",
+                "High specialization in EU/US sanitary rules."
+            ],
+            "Estimated Costs": "Nominal administrative contributions (under $1,500 MXN per semester)."
+        }, 
         {
-            "University": "", 
-            "Main focus": "",
-            "Admission requirements":"",
-            "opportunities": ""
-        },
+            "University": "TecNM Campus Cd. Madero",
+            "link": "https://www.cdmadero.tecnm.mx/index.php/oferta-educativa/maestrias/maestria-en-ciencias-de-la-ingenieria-quimica",
+            "Main focus": "Chemical Engineering Sciences: Petrochemistry and nanomaterials.",
+            "Admission requirements": [
+                "Chem Engineering degree",
+                "EXANI-III test",
+                "Faculty interview",
+                "English reading"
+            ],
+            "opportunities": [
+                "TecNM Internal Track: Simplifies paperwork as an ITO graduate",
+                "Affordable tuition fees",
+                "Focus on industrial plant scaling."
+            ],
+            "Estimated Costs": "Approx. $3,500–$6,000 MXN per semester."
+        }, 
         {
-            "University": "", 
-            "Main focus": "",
-            "Admission requirements":"",
-            "opportunities": ""
-        }
+            "University": "UAM Iztapalapa",
+            "link": "https://www.iztapalapa.uam.mx/",
+            "Main focus": "Chemical Engineering: Bioprocesses, toxic agents, and large-scale process simulation.",
+            "Admission requirements": [
+                "Degree in engineering or science",
+                "Minimum GPA: 8.0/10",
+                "Written admission exam",
+                "Curriculum Vitae (CV) evaluation"
+            ],
+            "opportunities": [
+                "CONAHCYT Stipend eligible",
+                "Heavy focus on patents and tech design",
+                "Top-tier simulation laboratories."
+            ],
+            "Estimated Costs": "Approx. $1,500–$3,000 MXN per term/semester."
+        }, 
+        {
+            "University": "UASLP (Faculty of Engineering)",
+            "link": "https://ciep.ing.uaslp.mx/info/maestrias/materiales.php",
+            "Main focus": "Metallurgy & Materials Engineering: Phase transformations, transport phenomena, polymers, and ceramics.",
+            "Admission requirements": [
+                "Bachelor’s degree in Eng/Sciences",
+                "EXANI-III exam score",
+                "Internal admission process",
+                "English proficiency certificate"
+
+            ],
+            "opportunities": [
+                "CONAHCYT Stipend eligible",
+                "Strong links to automotive, aerospace, and heavy manufacturing sectors in the SLP industrial zone."
+            ],
+            "Estimated Costs": "Admission test: ~$1,000 MXN (one-time) and Base tuition: Approx. $5,100–$9,900 MXN per semester."
+        }, 
+        {
+            "University": "UANL(FIME-Nuevo León)",
+            "link": "https://posgrado.uanl.mx/ofertas_educativas/maestria-en-ciencias-de-la-ingenieria-con-orientacion-en-materiales/",
+            "Main focus": "Materials Engineering: Advanced characterization of metals, alloys, polymers, and thin-film physics.",
+            "Admission requirements": [
+                "Degree in Engineering/Sciences",
+                "EXANI-III (Minimum 900 score)",
+                "EXCI English Test (50+ points)",
+                "Academic interview & CV"
+            ],
+            "opportunities": [
+                "CONAHCYT Stipend eligible",
+                "Top-tier equipment for manufacturing structural products and advanced semiconductors."
+            ],
+            "Estimated Costs": "University Rector fee: ~$4,520 MXN per semester and Faculty internal fee + classes: $14,000–$20,000 MXN per semester total."
+        }, 
+        {
+            "University": "Tec de Monterrey(Monterrey)",
+            "link": "https://maestriasydiplomados.tec.mx/posgrados/maestria-en-ciencias-de-la-ingenieria",
+            "Main focus": "Engineering Science (Materials & Nanotechnology Track): Molecular structuring, nanomaterials, and process simulation.",
+            "Admission requirements": [
+                "Strong academic background in STEM",
+                "Admission test (PAEP or equivalent)",
+                "TOEFL iBT / IELTS official score",
+                "Interview and research proposal"
+            ],
+            "opportunities": [
+                "High global prestige (facilitates entry to BYU or EU jobs)",
+                "State-of-the-art innovation hubs",
+                "Private scholarship options."
+            ],
+            "Estimated Costs": "Private tuition fees, Approx. $25,000 – $32,000 MXN per individual course module and Total cost can range between $500,000–$650,000 MXN for the complete program."
+        }   
     ]
 }
