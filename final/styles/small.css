@@ -178,7 +178,9 @@ form button:hover {
     background: var(--soft-background);
     border: 1px solid var(--border-color);
     border-radius: 0.75rem;
-    overflow-wrap: anywhere;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
 }
 
 .program-card h3 {
@@ -271,14 +273,7 @@ body.dark-mode .program-card {
 
 
 /* University cards */
-.program-card {
-  background-color: #ffffff;
-  border-radius: 12px;
-  padding: 1rem;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  overflow: hidden;
-}
+
 
 /* Movement and shadow on hover */
 .program-card:hover {
