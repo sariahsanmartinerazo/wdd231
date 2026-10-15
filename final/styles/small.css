@@ -1,0 +1,15 @@
+:root {
+    --primary-color: #F44336;
+    --soft-background: #FEE8E7;
+    --text-color: #252525;
+    --white: #FFFFFF;
+    --border-color: #E0D5D4;
+
+    --heading-font: "Roboto", sans-serif;
+    --body-font: "Lora", serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
