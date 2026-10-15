@@ -23,7 +23,6 @@ body {
 
 h1 {
     color: var(--primary-color);
-    text-align: center;
     width: 100%;
     align-items: center;
     gap: 0.75rem;
