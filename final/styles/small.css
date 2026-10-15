@@ -21,11 +21,17 @@ body {
     line-height: 1.6;
 }
 
-h1, h2, h3, button {
+h1 {
+    color: var(--primary-color);
+    margin-top: 0;
+    text-align: center;
+}
+
+h2, h3, button {
     font-family: var(--heading-font);
 }
 
-h1, h2, h3, p {
+h2, h3, p {
     margin-top: 0;
 }
 
@@ -49,7 +55,7 @@ button {
 
 /* Header: botones juntos a la izquierda */
 
-header {
+header, h1 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -260,7 +266,7 @@ body.dark-mode .program-card {
 
 
 
-/* Tarjetas de universidades */
+/* University cards */
 .program-card {
   background-color: #ffffff;
   border-radius: 12px;
@@ -270,13 +276,13 @@ body.dark-mode .program-card {
   overflow: hidden;
 }
 
-/* Movimiento y sombra al acercar el cursor */
+/* Movement and shadow on hover */
 .program-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 10px 22px rgba(0, 0, 0, 0.2);
 }
 
-/* Imagen de cada universidad */
+/* Image of each university */
 .program-card img {
   display: block;
   width: 100%;
@@ -289,13 +295,13 @@ body.dark-mode .program-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* La imagen crece ligeramente al pasar el cursor */
+/* The image grows slightly when the cursor hovers over it. */
 .program-card:hover img {
   transform: scale(1.03);
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
 }
 
-/* Evita movimientos para quienes lo prefieren */
+/* Avoids movement for those who prefer it that way */
 @media (prefers-reduced-motion: reduce) {
   .program-card,
   .program-card img {
