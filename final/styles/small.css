@@ -257,3 +257,12 @@ body.dark-mode .hero,
 body.dark-mode .program-card {
     background: var(--soft-background);
 }
+
+.program-card img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}

@@ -71,6 +71,16 @@ async function loadPrograms() {
         programs.forEach((program) => {
             const card = document.createElement("article");
             card.classList.add("program-card");
+            // University image
+            if (program.image) {
+                const image = document.createElement("img");
+                image.src = `images/${program.image}`;
+                image.alt = `Campus or facilities of ${program.university}`;
+                image.loading = "lazy";
+                image.width = 300;
+                image.height = 200;
+                card.appendChild(image);
+            }
 
             const name = document.createElement("h3");
             name.textContent = program.name || program.university || "University";
