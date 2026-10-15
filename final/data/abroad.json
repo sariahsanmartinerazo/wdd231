@@ -1,98 +1,101 @@
-{
-    "AD": [
-        {
-            "University":"Brigham Young University (BYU)",
-            "link": "https://cbe.byu.edu/Graduate/faq",
-            "Main focus": "Chemical Engineering: Core chemical engineering principles, transport phenomena, and thermodynamics, with flexible paths for biomedical or material research.",
-            "Admission requirements": [
-                "Bachelor’s degree in STEM.",
-                "GPA: ~3.0 minimum equivalent (via NACES evaluation)",
-                "English: TOEFL iBT or IELTS Academic",
-                "Official transcripts"
-            ],
-            "opportunities": [
-                "STEM Visa Extensions: Gives you up to 3 years of legal post-graduation work rights in the US.",
-                "Elite Lab Resources: Direct access to massive multi-million dollar corporate R&D funding.",
-                "Most graduate students in this specific program receive internal financial aid/stipends that offset these costs."
-            ],
-            "Estimated costs": 
-                "$8,672 USD (~$175,000 MXN) per semester for Non-Latter-day Saint graduate students."
-        },
-        {
-            "University":"L-Università ta' Malta (UM)",
-            "link": "https://www.um.edu.mt/",
-            "Main focus": "Applied Chemistry & Pharma Manufacturing: Analytical tools, validation, and factory operations.",
-            "Admission requirements": [
-                "Chemistry, Pharmacy, or Chemical Eng. degree",
-                "English: IELTS Academic (6.5 minimum) or TOEFL equivalent",
-                "Official translated transcripts and course descriptions"
-            ],
-            "opportunities": [
-                "Direct Pharma Gateway: Malta is a global manufacturing center for generic medicines (great for quick corporate hiring).",
-                "Native English Country: No local language barrier inside or outside the university"
-            ],
-            "Estimated costs": "€13,400 EUR (~$285,000 MXN total for the degree)."
-        },
-        {
-            "University":"University of Melbourne",
-            "link": "https://mbs.edu/short-courses/leading-strategically-with-ai?gclsrc=aw.ds&gad_source=1&gad_campaignid=24074182772&gbraid=0AAAAACzjQ9PYbhyvqRSAEtCKxTxbMkFMw&gclid=CjwKCAjw0LzWBhBOEiwAKQd0cOrau2snkmilrJXwKL3t_xVcKyivDe24QX5so95iyeHYhBvzW-5JIRoCsM0QAvD_BwE",
-            "Main focus": "Master of Engineering (Chemical / Materials Science): Advanced process engineering, sustainable materials, nanotechnology, and industrial scaling up.",
-            "Admission requirements": [
-                "4-year Bachelor’s in Engineering or related science",
-                "GPA: Equivalent to a UK upper-second class or USA 3.0+",
-                "English: IELTS (6.5+ with no band under 6.0)"
-            ],
-            "opportunities": [
-                "Post-Study Work Visa: Automatically grants a 2-to-4-year visa to stay and work after graduating",
-                "Flexible Work Rights: Allows you to work up to 48 hours per fortnight anywhere in the city while studying."
-            ],
-            "Estimated costs": "$32,000–$48,000 AUD (~$420,000–$630,000 MXN) per year for engineering programs."
-        },
-        {
-            "University": "University of Zagreb (Croatia)",
-            "link": "https://www.mastersportal.com/universities/685/university-of-zagreb.html",
-            "Main focus": "Chemical & Environmental Technology: Interdisciplinary focus on materials chemistry, polymers, and green process engineering.",
-            "Admission requirements": [
-                "IELTS Academic: 6.5 overall (with no individual band below 6.0).",
-                "Bachelor's degree in Chemical Engineering, Chemistry, or Environmental Sciences."
-            ],
-            "opportunities": [
-                "Ultra-Affordable EU Degree: Gives you an official European Union degree at a fraction of Western costs.",
-                "Industry Giants Nearby: Home to Pliva (Teva), opening local corporate doors."
-            ],
-            "Estimated costs": "€3,700 EUR per year for non-EU students (Approx. $78,000 MXN per year)."
-        },
-        {
-            "University": "University of Auckland (New Zealand)",
-            "link": "https://www.mastersportal.com/cities/657/auckland.html?utm_source=google&utm_medium=cpc&utm_campaign=21296555005&utm_content=164006276042&utm_term=study%20in%20new%20zealand&gad_source=1&gad_campaignid=21296555005&gbraid=0AAAAADmlPGxLY1suqZQ5wiPlKbpizkQen&gclid=CjwKCAjw0LzWBhBOEiwAKQd0cIZj9D9sW7_RJZ6FXod7VQWXb4FCiWgDX8v8LeuKYhWlUY8QpmY1_hoCQ14QAvD_BwE",
-            "Main focus": "Chemical & Materials Engineering / Sciences: Process optimization, nanomaterials, polymers, and green engineering.",
-            "Admission requirements": [
-                "4-year Bachelor's degree in STEM (e.g., your Chemical Engineering degree from ITO).",
-                "Minimum C1 Academic Level required."
-
-            ],
-            "opportunities": [
-                "Tuition Waiver + Living Aid: Covers 100% of international tuition and grants a $18,500 NZD annual living stipend.",
-                "Top Oceanic Prestige: New Zealand's top university, highly valued across Asia, Europe, and America."
-            ],
-            "Estimated costs": "Fully Covered by the Research Masters Scholarship if accepted."
-        },
-        {
-            "University": "Monash University",
-            "link": "https://www.monash.edu/study/fees-scholarships/scholarships/find-a-scholarship/monash-graduate-scholarship-mgs",
-            "Main focus": "Pharmaceutical Sciences & Advanced Materials (Smart drug delivery systems, polymeric capsules, and biomaterials).",
-            "Admission requirements": [
-                "4-year Bachelor's degree in Chemical Engineering or related fields.",
-                "IELTS Academic: 6.5 overall (no band lower than 6.0) or TOEFL iBT equivalent.",
-                " CV in English showcasing research experience or thesis work.",
-                "Mandatory prior agreement from an academic supervisor."
-            ],
-            "opportunities": [
-                "Monash Graduate Scholarship (MGS): Covers 100% of your tuition fees.",
-                "Living Stipend: Grants $37,000 AUD per year for personal and living expenses.",
-                "Direct networking with industrial pharmaceutical funding through your professor's laboratory."
-            ],
-            "Estimated costs": "Fully Covered ($0 USD out-of-pocket for tuition if the scholarship is granted)."
-        }
-    ]
-}
+[
+  {
+    "university": "Brigham Young University (BYU)",
+    "link": "https://cbe.byu.edu/Graduate/faq",
+    "focus": "Chemical Engineering: transport phenomena, thermodynamics, and core engineering principles, with possible research in biomedical or materials fields.",
+    "requirements": [
+      "Bachelor's degree in STEM",
+      "GPA: approximately 3.0 equivalent",
+      "TOEFL iBT or IELTS Academic",
+      "Official transcripts"
+    ],
+    "opportunities": [
+      "Possible US post-study work authorization, subject to eligibility",
+      "Research laboratory resources",
+      "Potential internal financial aid or graduate funding"
+    ],
+    "cost": "Reported estimate: $8,672 USD per semester for graduate students who are not members of The Church of Jesus Christ of Latter-day Saints."
+  },
+  {
+    "university": "University of Malta",
+    "link": "https://www.um.edu.mt/",
+    "focus": "Applied Chemistry and Pharmaceutical Manufacturing: analytical methods, validation, and production operations.",
+    "requirements": [
+      "Degree in Chemistry, Pharmacy, or Chemical Engineering",
+      "IELTS Academic (reported minimum 6.5) or equivalent TOEFL score",
+      "Official translated transcripts",
+      "Course descriptions"
+    ],
+    "opportunities": [
+      "Potential connections to pharmaceutical manufacturing",
+      "English-language study environment",
+      "Industry networking opportunities"
+    ],
+    "cost": "Reported estimate: €13,400 total for the degree."
+  },
+  {
+    "university": "University of Melbourne",
+    "link": "https://www.unimelb.edu.au/",
+    "focus": "Engineering and materials-related research: process engineering, sustainable materials, nanotechnology, and industrial scale-up.",
+    "requirements": [
+      "Bachelor's degree in engineering or a related science",
+      "Academic results meeting the program's entry requirements",
+      "IELTS or another accepted English-language qualification"
+    ],
+    "opportunities": [
+      "Research opportunities in engineering and materials",
+      "Potential post-study work options subject to visa eligibility",
+      "Industry and academic networking"
+    ],
+    "cost": "The original estimate was AUD $32,000–$48,000 per year; confirm current fees and the exact eligible program with the university."
+  },
+  {
+    "university": "University of Zagreb",
+    "link": "https://www.unizg.hr/homepage/",
+    "focus": "Chemical and Environmental Technology: materials chemistry, polymers, and sustainable process engineering.",
+    "requirements": [
+      "Bachelor's degree in Chemical Engineering, Chemistry, or Environmental Sciences",
+      "English-language qualifications if required by the selected program",
+      "Official academic transcripts"
+    ],
+    "opportunities": [
+      "Study in a European university environment",
+      "Research in materials and environmental technology",
+      "Potential connections with regional industry"
+    ],
+    "cost": "The original estimate was €3,700 per year for non-EU students; verify the program-specific tuition."
+  },
+  {
+    "university": "University of Auckland",
+    "link": "https://www.auckland.ac.nz/",
+    "focus": "Chemical and Materials Engineering: process optimization, nanomaterials, polymers, and sustainable engineering.",
+    "requirements": [
+      "Bachelor's degree in a relevant engineering or science field",
+      "English-language proficiency meeting program requirements",
+      "Academic transcripts and any required research proposal"
+    ],
+    "opportunities": [
+      "Research master's and scholarship opportunities may be available",
+      "International academic networking",
+      "Research in materials and sustainable engineering"
+    ],
+    "cost": "The original information described a fully funded research scholarship; funding and eligibility must be confirmed with the university."
+  },
+  {
+    "university": "Monash University",
+    "link": "https://www.monash.edu/study/fees-scholarships/scholarships/find-a-scholarship/monash-graduate-scholarship-mgs",
+    "focus": "Pharmaceutical sciences and advanced materials: drug delivery systems, polymers, and biomaterials.",
+    "requirements": [
+      "Bachelor's degree in Chemical Engineering or a related field",
+      "IELTS Academic or accepted equivalent",
+      "CV highlighting research experience",
+      "Academic supervisor approval if required by the research program"
+    ],
+    "opportunities": [
+      "Graduate scholarship opportunities",
+      "Possible tuition support and living stipend, depending on award conditions",
+      "Research networking through academic laboratories"
+    ],
+    "cost": "Tuition and living expenses depend on the selected program and scholarship. Confirm current award conditions with Monash University."
+  }
+] 

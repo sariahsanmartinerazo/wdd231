@@ -3,104 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final project wdd231: Traveling with purpose | Home </title>
-    <meta name="description" content="Traveling with Purpose helps chemical engineers explore master's degree opportunities in Mexico and abroad.">
+
+    <title>Traveling with Purpose | Home</title>
+    <meta name="description" content="Explore master's degree opportunities in chemical engineering in Mexico and abroad with Traveling with Purpose.">
     <meta name="author" content="Sariah Italletzy San Martin Erazo">
 
-    <!--styles-->
+    <!-- CSS -->
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
 
-    <!--java-->
+    <!-- JavaScript -->
     <script src="final.js" defer></script>
 
-    <!--typography-->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 
-    <!--favicon-->
+    <!-- Favicon -->
     <link rel="icon" href="images/faviconIQM.ico" type="image/x-icon">
 
-    <!--Open Graph-->
-    <meta property="og:title" content="Traveling with purpose | Home">
-    <meta property="og:description" content="The principal Home page of Traveling with purpose the content is the most important resume about the page.">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Traveling with Purpose | Home">
+    <meta property="og:description" content="Discover master's degree opportunities for chemical engineers in Mexico and abroad.">
     <meta property="og:image" content="https://sariahsanmartinerazo.github.io/wdd231/final/images/logocc.svg">
     <meta property="og:url" content="https://sariahsanmartinerazo.github.io/wdd231/final/index.html">
 </head>
 
 <body>
     <header>
-        <button id="menu-button" aria-label="open navigation menu">☰</button>
-        <nav id="navigation">
-            <a href="index.html">Home</a>
+        <button id="menu-button" type="button" aria-label="Open navigation menu" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav id="navigation" aria-label="Main navigation">
+            <a href="index.html" aria-current="page">Home</a>
             <a href="mexico.html">Mexico</a>
             <a href="abroad.html">Abroad</a>
         </nav>
-        <button id="dark-mode" type="button" aria-label="dark mode on">◐</button>
+
+        <button id="dark-mode" type="button" aria-label="Toggle dark mode" aria-pressed="false">
+            ◐
+        </button>
+
         <h1>Traveling with Purpose</h1>
     </header>
+
     <main>
-        <h2>What are you looking for?</h2>
-        <div class="form-layout">
-            <form method="get" action="thankyou.html">
-                <h2>Student information</h2>
-                <label>
-                    Name:
-                    <input
-                    type="text"
-                    name="name"
-                    title="Enter your first name"
-                    autocomplete="given-name"
-                    maxlength="50"
-                    required>
-                </label>
-                <label>
-                    Email:
-                    <input
-                    type="email"
-                    name="email"
-                    title="Enter your email address"
-                    autocomplete="email"
-                    placeholder="example@email.com"
-                    required>
-                </label>
-                <label>
-                    Interest:
-                    <input
-                    type="text"
-                    name="interest"
-                    title="Enter your area of interest in graduate studies"
-                    maxlength="50"
-                    required>
-                </label>
-                <label>
-                    Message:
-                    <textarea
-                    name="message"
-                    title="Write your message"
-            rows="4"
-            maxlength="500"
-            required></textarea>
-    </label>
-
-    <input type="hidden" name="timestamp" id="timestamp">
-
-    <input type="submit" value="Submit">
-</form>
-
-            
-        </div>
-
-    </main>
-    <footer>
         <section>
-            <p></p>
-            <p></p>
+            <h2>What are you looking for?</h2>
+            <p>Explore master's degree opportunities in chemical engineering and find a study destination that fits your interests.</p>
+
+            <div class="form-layout">
+                <form method="get" action="thankyou.html" id="interest-form">
+                    <h2>Student Information</h2>
+
+                    <label for="name">Name:</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        title="Enter your first name"
+                        autocomplete="given-name"
+                        maxlength="50"
+                        required
+                    >
+
+                    <label for="email">Email:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        title="Enter your email address"
+                        autocomplete="email"
+                        placeholder="example@email.com"
+                        required
+                    >
+
+                    <label for="interest">Area of Interest:</label>
+                    <input
+                        type="text"
+                        id="interest"
+                        name="interest"
+                        title="Enter your area of interest in graduate studies"
+                        maxlength="50"
+                        required
+                    >
+
+                    <label for="message">Message:</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        title="Write your message"
+                        rows="4"
+                        maxlength="500"
+                        required
+                    ></textarea>
+
+                    <input type="hidden" name="timestamp" id="timestamp">
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
         </section>
-        <p>Sariah Italletzy San Martin Erazo All rights reserved. 🌏 </p>
-        <p>&copy; <span id="currentyear"></span></p>
+    </main>
+
+    <footer>
+        <p>Traveling with Purpose</p>
+        <p>Created by Sariah Italletzy San Martin Erazo</p>
+        <p>&copy; <span id="currentyear"></span> Traveling with Purpose</p>
         <p>Last modified: <span id="lastmodified"></span></p>
+        <p>
+            <a href="site-plan/siteplan.html">Site Plan</a> |
+            <a href="https://www.youtube.com/@sariahsanmartin2467">Project Video</a>
+        </p>
     </footer>
 </body>
 </html>

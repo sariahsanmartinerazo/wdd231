@@ -1,16 +1,10 @@
 
-/* =====================================
-   TRAVELING WITH PURPOSE
-   Base styles - Mobile first
-===================================== */
-
 :root {
     --primary-color: #F44336;
     --soft-background: #FEE8E7;
     --text-color: #252525;
     --white: #FFFFFF;
     --border-color: #E0D5D4;
-
     --heading-font: "Roboto", sans-serif;
     --body-font: "Lora", serif;
 }
@@ -21,24 +15,17 @@
 
 body {
     margin: 0;
-    background-color: var(--white);
+    background: var(--white);
     color: var(--text-color);
     font-family: var(--body-font);
     line-height: 1.6;
 }
 
-h1,
-h2,
-h3,
-button,
-input[type="submit"] {
+h1, h2, h3, button {
     font-family: var(--heading-font);
 }
 
-h1,
-h2,
-h3,
-p {
+h1, h2, h3, p {
     margin-top: 0;
 }
 
@@ -52,19 +39,15 @@ a {
     color: inherit;
 }
 
-button,
-input,
-textarea,
-select {
+button, input, textarea {
     font: inherit;
 }
 
-button,
-input[type="submit"] {
+button {
     cursor: pointer;
 }
 
-/* Header and navigation */
+/* Header */
 
 header {
     display: grid;
@@ -72,7 +55,7 @@ header {
     align-items: center;
     gap: 0.75rem;
     padding: 1rem;
-    background-color: var(--white);
+    background: var(--white);
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -80,13 +63,13 @@ header h1 {
     grid-column: 1 / -1;
     margin: 0;
     color: var(--primary-color);
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     text-align: center;
 }
 
 #menu-button,
 #dark-mode {
-    border: 0;
+    border: none;
     background: transparent;
     color: var(--text-color);
     font-size: 1.5rem;
@@ -109,11 +92,12 @@ header h1 {
 }
 
 #navigation a:hover,
-#navigation a:focus-visible {
+#navigation a:focus-visible,
+#navigation a[aria-current="page"] {
     color: var(--primary-color);
 }
 
-/* Main content */
+/* Main */
 
 main {
     width: 100%;
@@ -130,37 +114,44 @@ main h2 {
     text-align: center;
 }
 
+/* Hero */
+
 .hero {
-    padding: 3rem 1rem;
-    background-color: var(--soft-background);
-    text-align: center;
+    padding: 2rem 1rem;
+    background: var(--soft-background);
     border-radius: 0.75rem;
+    text-align: center;
 }
 
 .hero h2 {
-    color: var(--text-color);
     font-size: 2rem;
 }
 
+/* Buttons and links */
+
 .button-link,
-.program-card a {
+.program-card a,
+form button {
     display: inline-block;
-    padding: 0.75rem 1.25rem;
-    background-color: var(--primary-color);
+    padding: 0.7rem 1rem;
+    background: var(--primary-color);
     color: var(--white);
-    text-decoration: none;
+    border: none;
     border-radius: 0.4rem;
+    text-decoration: none;
     font-family: var(--heading-font);
     font-weight: 700;
 }
 
 .button-link:hover,
-.program-card a:hover {
+.program-card a:hover,
+form button:hover {
     filter: brightness(0.9);
 }
 
 /* Program cards */
 
+.program-grid,
 .program-list {
     display: grid;
     grid-template-columns: 1fr;
@@ -169,7 +160,7 @@ main h2 {
 
 .program-card {
     padding: 1rem;
-    background-color: var(--soft-background);
+    background: var(--soft-background);
     border: 1px solid var(--border-color);
     border-radius: 0.75rem;
     overflow-wrap: anywhere;
@@ -184,6 +175,10 @@ main h2 {
     margin-bottom: 0.75rem;
 }
 
+.program-card a {
+    margin-top: 0.5rem;
+}
+
 /* Form */
 
 .form-layout {
@@ -194,16 +189,13 @@ main h2 {
 form {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 0.75rem;
     padding: 1.25rem;
     border: 1px solid var(--border-color);
     border-radius: 0.75rem;
 }
 
 form label {
-    display: flex;
-    flex-direction: column;
-    gap: 0.35rem;
     font-weight: 700;
 }
 
@@ -212,30 +204,31 @@ textarea {
     width: 100%;
     min-width: 0;
     padding: 0.7rem;
-    border: 1px solid #777777;
+    border: 1px solid #777;
     border-radius: 0.35rem;
-    background-color: var(--white);
+    background: var(--white);
     color: var(--text-color);
 }
 
-input[type="submit"] {
-    border: 0;
-    background-color: var(--primary-color);
-    color: var(--white);
-    font-weight: 700;
+textarea {
+    resize: vertical;
 }
 
 /* Footer */
 
 footer {
     padding: 1.5rem 1rem;
-    background-color: var(--text-color);
+    background: var(--text-color);
     color: var(--white);
     text-align: center;
 }
 
 footer p {
     margin-bottom: 0.5rem;
+}
+
+footer a {
+    color: var(--white);
 }
 
 /* Dark mode */
@@ -251,11 +244,11 @@ body.dark-mode header,
 body.dark-mode form,
 body.dark-mode input,
 body.dark-mode textarea {
-    background-color: var(--white);
+    background: var(--white);
     color: var(--text-color);
 }
 
 body.dark-mode .hero,
 body.dark-mode .program-card {
-    background-color: var(--soft-background);
-}
+    background: var(--soft-background);
+} 
