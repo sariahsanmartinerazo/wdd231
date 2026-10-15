@@ -42,3 +42,31 @@ if (!response.ok) {
     throw new Error("Could not load Mexican programs");
 }
 const programs = await response.json();
+
+
+/* Display submitted form information */
+
+const submissionDetails = document.querySelector("#submission-details");
+
+if (submissionDetails) {
+    const params = new URLSearchParams(window.location.search);
+
+    const fields = [
+        ["Name", "name"],
+        ["Email", "email"],
+        ["Interest", "interest"],
+        ["Message", "message"]
+    ];
+
+    const heading = document.createElement("h2");
+    heading.textContent = "Your submitted information";
+    submissionDetails.appendChild(heading);
+
+    fields.forEach(([label, key]) => {
+        const paragraph = document.createElement("p");
+        const value = params.get(key);
+
+        paragraph.textContent = `${label}: ${value || "Not provided"}`;
+        submissionDetails.appendChild(paragraph);
+    });
+}
