@@ -258,11 +258,52 @@ body.dark-mode .program-card {
     background: var(--soft-background);
 }
 
+
+
+/* Tarjetas de universidades */
+.program-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+/* Movimiento y sombra al acercar el cursor */
+.program-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen de cada universidad */
 .program-card img {
   display: block;
   width: 100%;
   height: 200px;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
+  background-color: #f4f4f4;
   border-radius: 8px;
-  margin-bottom: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* La imagen crece ligeramente al pasar el cursor */
+.program-card:hover img {
+  transform: scale(1.03);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
+
+/* Evita movimientos para quienes lo prefieren */
+@media (prefers-reduced-motion: reduce) {
+  .program-card,
+  .program-card img {
+    transition: none;
+  }
+
+  .program-card:hover,
+  .program-card:hover img {
+    transform: none;
+  }
 }
