@@ -35,3 +35,10 @@ themeButton.addEventListener("click", () => {
         themeButton.setAttribute("aria-label", "Switch to dark mode");
     }
 });
+
+// Get member data from JSON
+const response = await fetch("data/mexico.json")
+if (!response.ok) {
+    throw new Error("Could not load Mexican programs");
+}
+const programs = await response.json();
