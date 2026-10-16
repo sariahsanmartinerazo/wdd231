@@ -66,6 +66,11 @@ async function loadPrograms() {
             const card = document.createElement("article");
             card.classList.add("program-card");
 
+            // University name
+            const title = document.createElement("h2");
+            title.textContent = program.university;
+            card.appendChild(title);
+
             // University image
             if (program.image) {
                 const image = document.createElement("img");
@@ -75,12 +80,7 @@ async function loadPrograms() {
                 image.width = 300;
                 image.height = 200;
                 card.appendChild(image);
-            }
-
-            // University name
-            const title = document.createElement("h2");
-            title.textContent = program.university;
-            card.appendChild(title);
+            } 
 
             // Academic focus
             addSection(card, "Academic Focus", program.focus);
