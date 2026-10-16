@@ -85,12 +85,6 @@ async function loadPrograms() {
             // Academic focus
             addSection(card, "Academic Focus", program.focus);
 
-            //Admission requirements
-            addList(card, "Admission Requirements", program.requirements);
-
-            //Opportunities
-            addList(card, "Opportunities", program.opportunities);
-
             //Estimated cost
             addSection(card, "Estimated Cost", program.cost);
 
