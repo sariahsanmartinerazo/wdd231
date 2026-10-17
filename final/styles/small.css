@@ -313,4 +313,13 @@ body.dark-mode .program-card {
   .program-card:hover img {
     transform: none;
   }
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin: 1rem auto 2rem;
+    border-radius: 0.75rem;
+}
 }
