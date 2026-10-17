@@ -171,6 +171,8 @@ form button:hover {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
+    /* alt min aprox for the page don't size 0 loading*/ 
+    min-height: 600px
 }
 
 .program-card {
