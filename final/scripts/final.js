@@ -25,21 +25,50 @@ if (menuButton && navigation) {
     });
 }
 
-// Dark mode
+ // Dark mode with localStorage
 const themeButton = document.querySelector("#dark-mode");
 
+// 1. Read the saved preference
+const savedTheme = localStorage.getItem("theme");
+
+// 2. Apply the saved theme when the page loads
+if (savedTheme === "dark") {
+    document.body.classList.add("dark-mode");
+}
+
+// 3. Update the button to match the current theme
+function updateThemeButton() {
+    if (!themeButton) return;
+
+    const darkModeEnabled =
+        document.body.classList.contains("dark-mode");
+
+    themeButton.setAttribute("aria-pressed", darkModeEnabled);
+    themeButton.textContent = darkModeEnabled ? "☀" : "◐";
+    themeButton.setAttribute(
+        "aria-label",
+        darkModeEnabled
+            ? "Switch to light mode"
+            : "Switch to dark mode"
+    );
+}
+
+updateThemeButton();
+
+// 4. Save the new preference when the user clicks
 if (themeButton) {
     themeButton.addEventListener("click", () => {
         document.body.classList.toggle("dark-mode");
 
-        const darkModeEnabled = document.body.classList.contains("dark-mode");
+        const darkModeEnabled =
+            document.body.classList.contains("dark-mode");
 
-        themeButton.setAttribute("aria-pressed", darkModeEnabled);
-        themeButton.textContent = darkModeEnabled ? "☀" : "◐";
-        themeButton.setAttribute(
-            "aria-label",
-            darkModeEnabled ? "Switch to light mode" : "Switch to dark mode"
+        localStorage.setItem(
+            "theme",
+            darkModeEnabled ? "dark" : "light"
         );
+
+        updateThemeButton();
     });
 }
 
